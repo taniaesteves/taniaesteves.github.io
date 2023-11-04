@@ -5,13 +5,13 @@ main:
     url: /publications/
 
   - title: "Teaching"
-     url: /teaching/
+    url: /teaching/
 
   - title: "Supervision"
-     url: /supervision/
+    url: /supervision/
 
   - title: "Service"
     url: /service/
 
   - title: "Projects and Software"
-    url: /portfolio/
+    url: /projects/
