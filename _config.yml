@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "taniaesteves"
 title_separator          : "-"
 name                     : &name "Tania Esteves"
 description              : &description "Ph.D Student and Researcher at HASLab - INESC TEC and U.Minho"
