@@ -7,7 +7,8 @@ author_profile: true
 
 # Projects
 
-### BigHPC: A Management Framework for Consolidated Big Data and HPC
+## BigHPC: A Management Framework for Consolidated Big Data and HPC
+
 **Researcher**<br>
 2020 -- 2023<br>
 Research and development of I/O diagnosis tools for HPC applications and infrastructures.<br>
@@ -16,8 +17,9 @@ Research and development of I/O diagnosis tools for HPC applications and infrast
   <img src="https://img.shields.io/badge/Reference-POCI--01--0247--FEDER--045924-black?style=plastic&labelColor=darkblue"  />
 </a>
 
-### CENTRA: Efficient and Secure Data Management for HPC and Cloud Computing
+## CENTRA: Efficient and Secure Data Management for HPC and Cloud Computing
 **Researcher**<br>
+
 2018 -- Present<br>
 Research and development of secure storage solutions for cloud and HPC infrastructures.<br>
 <!-- Reference -->
@@ -26,7 +28,7 @@ Research and development of secure storage solutions for cloud and HPC infrastru
 </a>
 
 
-### IBM Research Haifa --- Joint Study Agreement
+## IBM Research Haifa --- Joint Study Agreement
 **Researcher**<br>
 2018 -- 2020<br>
 Research and development of a secure and stackable file system solution with deduplication and compression features.<br>
@@ -35,7 +37,7 @@ Research and development of a secure and stackable file system solution with ded
 
 # Software
 
-### CRIBA
+## CRIBA
 
 CRIBA is an open-source framework that simplifies the exploration, analysis, and comparison of I/O patterns for Linux cryptographic ransomware. It is built on top of DIO, a generic tool for observing and diagnosing the I/O interactions between applications and in-kernel POSIX storage systems.<br>
 <!-- GitHub CRIBA -->
@@ -44,7 +46,7 @@ CRIBA is an open-source framework that simplifies the exploration, analysis, and
 </a>
 
 
-### DIO
+## DIO
 DIO is a generic tool for observing and diagnosing applications storage I/O. It is designed to be used by applications developers and users to understand how applications interact with storage systems. By combining system call tracing, through eBPFs, with a customizable data analysis and visualization pipeline, DIO provide non-intrusive and comprehensive I/O diagnosis for applications using in-kernel POSIX storage systems (e.g., ext4, linux block device).<br>
 <!-- GitHub DIO -->
 <a href="https://github.com/dsrhaslab/dio">
@@ -56,14 +58,14 @@ DIO is a generic tool for observing and diagnosing applications storage I/O. It 
 </a>
 
 
-### CaT
+## CaT
 CaT is a black-box content-aware tracing and analysis framework. It analyzes distributed systems in a non-intrusive way, highlighting how their components interact with each other and how data flows through the system. Its design enables the capture of detailed information related to I/O network and disk events, such as the context of the request and the data processed by the event. With this information, CaT proposes an analysis of the event’s content based on their similarity, allowing the detection of data flow patterns that are not visible when inspecting only the context of events.<br>
 <!-- GitHub CAT -->
 <a href="https://github.com/dsrhaslab/cat">
     <img src="https://img.shields.io/badge/dsrhaslab%2Fcat-black?style=plastic&logo=github&logoColor=white&labelColor=blue"/>
 </a>
 
-### TrustFS
+## TrustFS
 TrustFS is an open-source programmable, and modular stackable file system framework for implement- ing secure content-aware storage functionalities over hardware-assisted trusted execution environments. TrustFS extends the original SafeFS architecture to provide the isolated execution guarantees of Intel SGX.<br>
 <!-- GitHub TrustFS -->
 <a href="https://github.com/taniaesteves/TrustFS">
