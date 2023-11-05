@@ -64,6 +64,10 @@ author_profile: true
 <a href="https://github.com/dsrhaslab/dio">
     <img src="https://img.shields.io/badge/dsrhaslab%2Fdio-black?style=plastic&logo=github&logoColor=white&labelColor=blue"/>
 </a>
+<!-- Website -->
+<a href="https://dio-tool.netlify.app">
+    <img src="https://img.shields.io/badge/dio--tool.netlify.app-black?style=plastic&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI+PHBhdGggZD0iTTkgM2E2IDYgMCAwIDAgMCAxMmE2IDYgMCAwIDAgMCAtMTJaTTcuNiA0LjJhNSA1IDAgMCAwIDAgOS42YTggOCAwIDAgMSAwIC05LjZaTTEwLjQgNC4yYTUgNSAwIDAgMSAwIDkuNmE4IDggMCAwIDAgMCAtOS42Wk05IDQuMWE3IDcgMCAwIDAgMCA5LjhhNyA3IDAgMCAwIDAgLTkuOCIgc3R5bGU9ImZpbGwtcnVsZTogZXZlbm9kZDsgZmlsbDogd2hpdGUiIC8+PHBhdGggc3R5bGU9Im9wYWNpdHk6IDAuNTsgZmlsbDogd2hpdGUiIGQ9Ik00LjEgOGE1IDUgMCAwIDEgMC4zMSAtMWgxLjg1YTggOCAwIDAgMCAtMC4yIDFaTTEzLjkgOGE1IDUgMCAwIDAgLTAuMzEgLTFoLTEuODVhOCA4IDAgMCAxIDAuMiAxWk00LjEgMTBhNSA1IDAgMCAwIDAuMzEgMWgxLjg1YTggOCAwIDAgMSAtMC4yIC0xWk0xMy45IDEwYTUgNSAwIDAgMSAtMC4zMSAxaC0xLjg1YTggOCAwIDAgMCAwLjIgLTFaTTcuMDcgOGE3IDcgMCAwIDEgMC4yMiAtMWgzLjQyYTcgNyAwIDAgMSAwLjIyIDFaTTcuMDcgMTBhNyA3IDAgMCAwIDAuMjIgMWgzLjQyYTcgNyAwIDAgMCAwLjIyIC0xWiIgLz48L3N2Zz4=&labelColor=purple" alt="Website"/>
+</a>
 <!-- Doi -->
 <a href="https://doi.org/10.1109/DSN-W58399.2023.00022">
   <img src="https://img.shields.io/badge/DOI-10.1109/DSN%E2%80%93W58399.2023.00022-black?style=plastic&labelColor=darkgreen"  />
@@ -73,7 +77,7 @@ author_profile: true
 
 ## 2021
 
-**CAT: Content-Aware Tracing and Analysis for Dis- tributed Systems**<br>
+**CAT: Content-Aware Tracing and Analysis for Distributed Systems**<br>
 **Tânia Esteves**, Francisco Neves, Rui Oliveira, João Paulo.<br>
 *ACM International Middleware Conference, 2021.*<br>
 <!-- PDF -->
