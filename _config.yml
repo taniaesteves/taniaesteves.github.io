@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Tania Esteves"
-description              : &description "PhD Student and Researcher at HASLab - INESC TEC and U.Minho"
+description              : &description "Ph.D Student and Researcher at HASLab - INESC TEC and U.Minho"
 url                      : https://taniaesteves.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "taniaesteves/taniaesteves.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Tânia Esteves"
   avatar           : "profile.png"
-  bio              : "PhD Student and Researcher at HASLab - INESC TEC and Universidade do Minho"
+  bio              : "Ph.D Student and Researcher at HASLab - INESC TEC and Universidade do Minho"
   location         : "Universidade do Minho, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
