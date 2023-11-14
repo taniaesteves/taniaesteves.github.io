@@ -228,14 +228,14 @@ defaults:
       share: true
       comments: true
   # _talks
-  # - scope:
-  #     path: ""
-  #     type: talks
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _service
   - scope:
       path: ""
