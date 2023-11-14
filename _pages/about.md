@@ -23,7 +23,7 @@ Supervised by [Prof. João Paulo](https://jtpaulo.github.io/) and [Prof. Rui Oli
 University of Minho.<br>
 2018 --- present
 
-**MSc --- Integrated Master in Computer Science**
+**MSc --- Integrated Master in Computer Science**<br>
 Thesis: *"Sistemas de Armazenamento Configuráveis e Seguros"*<br>
 Supervised by [Prof. João Paulo](https://jtpaulo.github.io/) and [Prof. José Pereira](https://www.inesctec.pt/en/people/jose-orlando-pereira).<br>
 University of Minho.<br>
