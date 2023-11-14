@@ -16,5 +16,8 @@ main:
   - title: "Service"
     url: /service/
 
-  - title: "Projects and Software"
+  - title: "Projects"
     url: /projects/
+
+  - title: "Software"
+    url: /software/
