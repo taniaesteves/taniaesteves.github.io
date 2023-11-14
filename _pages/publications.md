@@ -69,9 +69,10 @@ author_profile: true
 *ACM International Middleware Conference, 2021.*<br>
 <a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-</a><!-- <a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves-presentation.pdf">
-    <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white" />
-</a> -->
+</a>
+<a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves-presentation.pdf">
+    <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
+</a>
 <a href="https://github.com/dsrhaslab/cat">
     <img src="https://img.shields.io/badge/dsrhaslab%2Fcat-black?style=plastic&logo=github&logoColor=white&labelColor=blue"/>
 </a>
