@@ -70,6 +70,14 @@ Lyon, France.<br>
 
 ## Others
 
+- **"Diagnosing applications I/O behavior through system call observability"**.<br>
+In *Cloud Computing Services and Applications*, class of the first year of the MEI MSc course in Informatics Engineering, U. Minho.<br>
+Braga, Portugal. 2022.<br>
+<a href="https://taniaesteves.github.io/files/2022/ascn22_dio-presentation.pdf">
+    <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
+</a>
+
+
 - **"CaT: Content-aware Tracing and Analysis for Distributed Systems"**. <br>
 In *Encontro Nacional de Sistemas Distribuídos* <br>
 Évora, Portugal. 2022.<br>
@@ -84,3 +92,6 @@ Braga, Portugal. 2018.<br>
 <!-- <a href="https://taniaesteves.github.io/files/2018/msc-thesis-taniaesteves-2018.pdf">
     <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
 </a> -->
+
+
+<!-- Pre-tese - 14/11/2019 -->
