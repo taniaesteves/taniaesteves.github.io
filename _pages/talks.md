@@ -38,7 +38,7 @@ Rennes, France. 2022.<br>
     <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
 </a>
 
-- **"TrustFS: An SGX-Enabled Stackable File System Framework"**<br>
+- **"TrustFS: An SGX-Enabled Stackable File System Framework"**.<br>
 In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems.*<br>
 Lyon, France. 2019.<br>
 <!-- <a href="https://taniaesteves.github.io/files/2019/trustfs-srds19-taniaesteves-poster.pdf">
@@ -61,7 +61,7 @@ Rennes, France. 2022.<br>
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
 </a>
 
-- **"TrustFS: An SGX-Enabled Stackable File System Framework"**<br>
+- **"TrustFS: An SGX-Enabled Stackable File System Framework"**.<br>
 In *38th International Symposium on Reliable Distributed Systems*.<br>
 Lyon, France.<br>
 <!-- <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
@@ -86,7 +86,7 @@ In *Encontro Nacional de Sistemas Distribuídos* <br>
 </a>
 
 
-- **"Sistemas de Armazenamento Configuráveis e Seguros"**<br>
+- **"Sistemas de Armazenamento Configuráveis e Seguros"**.<br>
 *Master thesis presentation at University of Minho.*<br>
 Braga, Portugal. 2018.<br>
 <!-- <a href="https://taniaesteves.github.io/files/2018/msc-thesis-taniaesteves-2018.pdf">
