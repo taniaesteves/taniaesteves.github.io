@@ -187,6 +187,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  tryouts:
+    output: true
+    permalink: /tryouts/:path/
 
 
 # Defaults
@@ -209,10 +212,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _tryout
+  # _tryouts
   - scope:
       path: ""
-      type: tryout
+      type: tryouts
     values:
       layout: single
       author_profile: true
@@ -336,3 +339,12 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_tryout_categories:  true   # enables categorization of projects into
+display_categories: ['blockquotes']
+enable_masonry:             true   # enables automatic project cards arrangement
