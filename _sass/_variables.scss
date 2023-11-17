@@ -42,7 +42,6 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-
 /*
    Colors
    ========================================================================== */
@@ -65,6 +64,7 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
+$purple-color:              #B509AC !default;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -88,7 +88,6 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-
 /* links */
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
@@ -96,6 +95,13 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
+// Theme colors
+
+$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-dark:      #2c3237 !default;
+
+// Font awesome location
+$fa-font-path: "../webfonts";
 
 /*
    Breakpoints
