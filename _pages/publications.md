@@ -122,6 +122,9 @@ Mariana Miranda, <ins>Tânia Esteves</ins>, Bernardo Portela, João Paulo.<br>
 <a href="https://taniaesteves.github.io/files/2018/msc_thesis_taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
 </a>
+<a href="https://taniaesteves.github.io/files/2018/msc-thesis-taniaesteves-2018-presentation.pdf">
+    <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
+</a>
 <a href="https://hdl.handle.net/1822/64184">
   <img src="https://img.shields.io/badge/URI-1822/64184-black?style=plastic&labelColor=darkgreen" />
 </a>
