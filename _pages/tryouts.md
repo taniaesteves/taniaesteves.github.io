@@ -2,12 +2,13 @@
 layout: page
 title: tryouts
 permalink: /tryouts/
-description: A growing collection of your cool tryouts.
-nav: true
-nav_order: 2
+description: A growing collection of your cool projects.
+author_profile: true
 display_categories: [work, fun]
 horizontal: false
 ---
+
+{% include base_path %}
 
 <!-- pages/tryouts.md -->
 <div class="tryouts">
