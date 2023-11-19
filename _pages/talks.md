@@ -101,3 +101,19 @@ Braga, Portugal. 2018.<br>
 
 
 <!-- Pre-tese - 14/11/2019 -->
+
+## Posters
+<div class="post">
+    <article>
+        <div class="tryouts">
+        <!-- Display tryouts without categories -->
+        {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
+        <!-- Generate cards for each tryout -->
+        <div class="grid">
+            {%- for tryout in sorted_tryouts -%}
+            {% include tryout.html %}
+            {%- endfor %}
+        </div>
+        </div>
+    </article>
+</div>
