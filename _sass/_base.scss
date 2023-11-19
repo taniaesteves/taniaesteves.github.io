@@ -186,7 +186,10 @@ figure {
   -webkit-box-align: start;
           align-items: flex-start;
   flex-wrap: wrap;
-  margin: 2em 0;
+  margin: .8em 0;
+  margin-bottom: 0;
+  min-height: 372px;
+  max-height: 372px;
 
   img,
   iframe,
@@ -319,6 +322,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .card {
   background-color: var(--global-card-bg-color);
+  min-height: 540;
+  max-height: 540;
 
   img {
     width: 100%;
@@ -326,6 +331,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   .card-title {
     color: var(--global-text-color);
+    min-height: 65px;
+    margin-top: 0;
   }
 
   .card-item {
@@ -354,8 +361,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
 
   .card {
-    min-height: 540;
-    max-height: 540;
+    min-height: 530;
+    max-height: 530;
     img {
       width: 100%;
     }
@@ -364,6 +371,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   .card-body {
     padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .card-title {
+    min-height: 65px;
+    margin-top: 0;
   }
 
   .card-item {
