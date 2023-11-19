@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Diagnosing applications' I/O behavior through system call observability"
+title: "Understanding storage I/O patterns through system call observability"
 description: "In *EuroSys'23*.<br>Rome, Italy. 2023."
 img: https://taniaesteves.github.io/assets/img/poster-dio-preview.png
 importance: 1
