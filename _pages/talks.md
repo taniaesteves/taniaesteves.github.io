@@ -51,7 +51,7 @@ Lyon, France. 2019.<br>
 
 ## Posters
 
-- **"Understanding storage I/O patterns through system call observability"**. <br>
+<!-- - **"Understanding storage I/O patterns through system call observability"**. <br>
 In *EuroSys.*<br>
 Rome, Italy. 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/dio-eurosys23-taniaesteves-poster.pdf">
@@ -71,8 +71,22 @@ In *38th International Symposium on Reliable Distributed Systems*.<br>
 Lyon, France. 2019.<br>
 <a href="https://taniaesteves.github.io/files/2019/trustfs-srds19-taniaesteves-poster.pdf">
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-</a>
-
+</a> -->
+## Posters
+<div class="post">
+    <article>
+        <div class="tryouts">
+        <!-- Display tryouts without categories -->
+        {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
+        <!-- Generate cards for each tryout -->
+        <div class="grid">
+            {%- for tryout in sorted_tryouts -%}
+            {% include tryout.html %}
+            {%- endfor %}
+        </div>
+        </div>
+    </article>
+</div>
 
 ## Others
 
@@ -101,19 +115,3 @@ Braga, Portugal. 2018.<br>
 
 
 <!-- Pre-tese - 14/11/2019 -->
-
-## Posters
-<div class="post">
-    <article>
-        <div class="tryouts">
-        <!-- Display tryouts without categories -->
-        {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
-        <!-- Generate cards for each tryout -->
-        <div class="grid">
-            {%- for tryout in sorted_tryouts -%}
-            {% include tryout.html %}
-            {%- endfor %}
-        </div>
-        </div>
-    </article>
-</div>

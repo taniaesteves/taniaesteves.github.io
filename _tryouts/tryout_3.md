@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "TrustFS: An SGX-Enabled Stackable File System Framework"
-description: "In *SRDS'18*.<br>Lyon, France."
+description: "In *SRDS'18*.<br>Lyon, France. 2018."
 img: https://taniaesteves.github.io/assets/img/poster-trustfs-preview.png
 importance: 2
 category: "2019"
