@@ -12,9 +12,6 @@ author_profile: true
 **Venue**: Eurosys'23<br>
 **Year**: 2023<br>
 **Location**: Rome, Italy<br>
-<a href="https://taniaesteves.github.io/files/2023/dio-eurosys23-taniaesteves-poster.pdf">
-    <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-</a>
 
 <embed src="https://taniaesteves.github.io/files/2023/dio-eurosys23-taniaesteves-poster.pdf" width="1000px" height="600px" />
 
