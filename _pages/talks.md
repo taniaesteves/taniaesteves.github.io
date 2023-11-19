@@ -3,6 +3,8 @@ layout: archive
 title: "Talks"
 permalink: /talks/
 author_profile: true
+display_categories: ["2023", "2022", "2019"]
+horizontal: false
 ---
 
 ## Conference talks
@@ -45,6 +47,8 @@ Lyon, France. 2019.<br>
     <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
 </a> -->
 
+
+
 ## Posters
 
 - **"Understanding storage I/O patterns through system call observability"**. <br>
@@ -64,10 +68,11 @@ Rennes, France. 2022.<br>
 
 - **"TrustFS: An SGX-Enabled Stackable File System Framework"**.<br>
 In *38th International Symposium on Reliable Distributed Systems*.<br>
-Lyon, France.<br>
+Lyon, France. 2019.<br>
 <a href="https://taniaesteves.github.io/files/2019/trustfs-srds19-taniaesteves-poster.pdf">
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
 </a>
+
 
 ## Others
 

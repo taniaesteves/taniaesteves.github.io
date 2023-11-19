@@ -1,21 +1,19 @@
 ---
 layout: page
-title: tryouts
+title: Tryouts
 permalink: /tryouts/
 description: A growing collection of your cool projects.
-author_profile: true
-display_categories: [work, fun]
+author_profile: false
+display_categories: ["2023", "2022", "2019"]
 horizontal: false
 ---
-
-{% include base_path %}
 
 <!-- pages/tryouts.md -->
 <div class="tryouts">
 {%- if site.enable_tryout_categories and page.display_categories %}
   <!-- Display categorized tryouts -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h3 class="category">{{ category }}</h3>
   {%- assign categorized_tryouts = site.tryouts | where: "category", category -%}
   {%- assign sorted_tryouts = categorized_tryouts | sort: "importance" %}
   <!-- Generate cards for each tryout -->
@@ -23,14 +21,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for tryout in sorted_tryouts -%}
-      {% include tryouts_horizontal.html %}
+      {% include tryout_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for tryout in sorted_tryouts -%}
-      {% include tryouts.html %}
+      {% include tryout.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -44,14 +42,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for tryout in sorted_tryouts -%}
-      {% include tryouts_horizontal.html %}
+      {% include tryout_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for tryout in sorted_tryouts -%}
-      {% include tryouts.html %}
+      {% include tryout.html %}
     {%- endfor %}
   </div>
   {%- endif -%}

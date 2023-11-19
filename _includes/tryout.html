@@ -1,5 +1,3 @@
-{% include base_path %}
-
 <!-- _includes/tryouts.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -15,7 +13,7 @@
           alt="tryout thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ tryout.title }}</h2>
+          <h3 class="card-title">{{ tryout.title }}</h3>
           <p class="card-text">{{ tryout.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if tryout.github -%}

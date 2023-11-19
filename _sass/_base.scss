@@ -196,6 +196,7 @@ figure {
 
   img {
     width: 100%;
+    max-width: 90vw;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
@@ -314,6 +315,30 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   transition: $global-transition;
 }
 
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 
 // Tryouts
 
@@ -346,7 +371,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 200px;
     margin-bottom: 10px;
   }
 
@@ -356,6 +381,6 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
