@@ -359,6 +359,9 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     }
   }
 
+  .card-title {
+    margin-top: 0;
+  }
   .card-item {
     width: auto;
     margin-bottom: 10px;
@@ -371,7 +374,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   .grid-sizer,
   .grid-item {
-    width: 200px;
+    width: 250px;
     margin-bottom: 10px;
   }
 
