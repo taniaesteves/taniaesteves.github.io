@@ -396,21 +396,21 @@ medium_zoom:
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
 
 # Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
+# defaults:
+#   - scope:
+#       path: "assets"
+#     values:
+#       sitemap: false
 
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+# navbar_fixed: true
+# footer_fixed: true
 
 # Dimensions
 max_width: 800px
