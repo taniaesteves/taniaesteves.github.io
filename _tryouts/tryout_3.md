@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: archive
 title: "TrustFS: An SGX-Enabled Stackable File System Framework"
 description: "In *SRDS'19*.<br>Lyon, France. 2019."
 img: https://taniaesteves.github.io/assets/img/poster-trustfs-preview.png
 importance: 2
 category: "2019"
-# related_publications: einstein1956investigations, einstein1950meaning
+author_profile: true
 ---
 
 
