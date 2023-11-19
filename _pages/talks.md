@@ -49,7 +49,7 @@ Lyon, France. 2019.<br>
 
 
 
-## Posters
+<!-- ## Posters -->
 
 <!-- - **"Understanding storage I/O patterns through system call observability"**. <br>
 In *EuroSys.*<br>
