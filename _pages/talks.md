@@ -43,36 +43,13 @@ Rennes, France. 2022.<br>
 - **"TrustFS: An SGX-Enabled Stackable File System Framework"**.<br>
 In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems.*<br>
 Lyon, France. 2019.<br>
-<!-- <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
+<a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
     <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
-</a> -->
-
-
-
-<!-- ## Posters -->
-
-<!-- - **"Understanding storage I/O patterns through system call observability"**. <br>
-In *EuroSys.*<br>
-Rome, Italy. 2023.<br>
-<a href="https://taniaesteves.github.io/files/2023/dio-eurosys23-taniaesteves-poster.pdf">
-    <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
 </a>
 
 
-- **"Flexible I/O Monitoring for Distributed Systems"**. <br>
-In *Eurosys.*<br>
-Rennes, France. 2022.<br>
-<a href="https://taniaesteves.github.io/files/2022/mon-eurosys22-taniaesteves-poster.pdf">
-    <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-</a>
-
-- **"TrustFS: An SGX-Enabled Stackable File System Framework"**.<br>
-In *38th International Symposium on Reliable Distributed Systems*.<br>
-Lyon, France. 2019.<br>
-<a href="https://taniaesteves.github.io/files/2019/trustfs-srds19-taniaesteves-poster.pdf">
-    <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-</a> -->
 ## Posters
+
 <div class="post">
     <article>
         <div class="tryouts">

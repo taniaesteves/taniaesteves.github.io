@@ -101,9 +101,9 @@ Mariana Miranda, <ins>Tânia Esteves</ins>, Bernardo Portela, João Paulo.<br>
 *38th International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems, 2019*<br>
 <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-black?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=darkred" />
-  </a><!-- <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
+<a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
     <img src="https://img.shields.io/badge/-slides-black?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=orange" />
-</a> -->
+</a>
 <a href="https://github.com/taniaesteves/TrustFS">
     <img src="https://img.shields.io/badge/taniaesteves%2FTrustFS-black?style=plastic&logo=github&logoColor=white&labelColor=blue"/>
 </a>
