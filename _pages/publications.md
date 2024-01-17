@@ -8,7 +8,7 @@ author_profile: true
 ## 2023
 <hr/>
 
-<a href="https://taniaesteves.github.io/files/2023/dio-access23-taniaesteves.pdf">**Toward a Practical and Timely Diagnosis of Application’ I/O Behavior.**</a><br>
+<span style="color:#063c72">**Toward a Practical and Timely Diagnosis of Application’ I/O Behavior.**</span><br>
 Tânia Esteves, Ricardo Macedo, Rui Oliveira, João Paulo.<br>
 In *IEEE Access*, 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/dio-access23-taniaesteves.pdf">
@@ -24,7 +24,7 @@ In *IEEE Access*, 2023.<br>
   <img src="https://img.shields.io/badge/DOI-10.1109/ACCESS.2023.3322104-white?style=plastic&labelColor=lightgray"  />
 </a>
 
-<a href="https://taniaesteves.github.io/files/2023/criba-srds23-taniaesteves.pdf">**CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior.**</a><br>
+<span style="color:#063c72">**CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior.**</span><br>
 Tânia Esteves, Bruno Pereira, Rui Pedro Oliveira, João Marco, João Paulo.<br>
 In *IEEE International Symposium on Reliable Distributed Systems*, 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/criba-srds23-taniaesteves.pdf">
@@ -39,7 +39,7 @@ In *IEEE International Symposium on Reliable Distributed Systems*, 2023.<br>
 
 
 
-<a href="https://taniaesteves.github.io/files/2023/dio-dcds23-taniaesteves.pdf">**Diagnosing applications' I/O behavior through system call observability.**</a><br>
+<span style="color:#063c72">**Diagnosing applications' I/O behavior through system call observability.**</span><br>
 Tânia Esteves, Ricardo Macedo, Rui Oliveira, João Paulo.<br>
 In *IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th Workshop on Data-Centric Dependability and Security*, 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/dio-dcds23-taniaesteves.pdf">
@@ -66,7 +66,7 @@ In *IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th 
 ## 2021
 <hr/>
 
-<a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves.pdf">**CAT: Content-Aware Tracing and Analysis for Distributed Systems.**</a><br>
+<span style="color:#063c72">**CAT: Content-Aware Tracing and Analysis for Distributed Systems.**</span><br>
 Tânia Esteves, Francisco Neves, Rui Oliveira, João Paulo.<br>
 In *ACM International Middleware Conference*, 2021.<br>
 <a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves.pdf">
@@ -83,7 +83,7 @@ In *ACM International Middleware Conference*, 2021.<br>
 </a>
 
 
-<a href="https://doi.org/10.1145/3456727.3463773">**S2Dedup: SGX-enabled Secure Deduplication.**</a><br>
+<span style="color:#063c72">**S2Dedup: SGX-enabled Secure Deduplication.**</span><br>
 Mariana Miranda, Tânia Esteves, Bernardo Portela, João Paulo.<br>
 In *International Systems and Storage Conference*, 2021.<br>
 <a href="https://github.com/dsrhaslab/s2dedup">
@@ -99,7 +99,7 @@ In *International Systems and Storage Conference*, 2021.<br>
 ## 2019
 <hr/>
 
-<a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves.pdf">**TrustFS: An SGX-Enabled Stackable File System Framework.**</a><br>
+<span style="color:#063c72">**TrustFS: An SGX-Enabled Stackable File System Framework.**</span><br>
 Tânia Esteves, Ricardo Macedo, Alberto Faria, Bernardo Portela, João Paulo, José Pereira, Danny Harnik.<br>
 In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems*, 2019.<br>
 <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves.pdf">
@@ -120,7 +120,7 @@ In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st
 ## 2018
 <hr/>
 
-<a href="https://taniaesteves.github.io/files/2018/msc_thesis_taniaesteves.pdf">**Sistemas de Armazenamento Configuráveis e Seguros.**</a><br>
+<span style="color:#063c72">**Sistemas de Armazenamento Configuráveis e Seguros.**</span><br>
 Tânia Esteves. Supervised by [Prof. João Paulo](https://jtpaulo.github.io/) and [Prof. José Pereira](https://www.inesctec.pt/en/people/jose-orlando-pereira).<br>
 *Master Thesis, University of Minho, 2018 (Portuguese).*<br>
 <a href="https://taniaesteves.github.io/files/2018/msc_thesis_taniaesteves.pdf">
