@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## 2023
+<hr/>
 
 <a href="https://taniaesteves.github.io/files/2023/dio-access23-taniaesteves.pdf">**Toward a Practical and Timely Diagnosis of Application’ I/O Behavior.**</a><br>
 Tânia Esteves, Ricardo Macedo, Rui Oliveira, João Paulo.<br>
@@ -63,6 +64,7 @@ In *IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th 
 
 
 ## 2021
+<hr/>
 
 <a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves.pdf">**CAT: Content-Aware Tracing and Analysis for Distributed Systems.**</a><br>
 Tânia Esteves, Francisco Neves, Rui Oliveira, João Paulo.<br>
@@ -95,6 +97,7 @@ In *International Systems and Storage Conference*, 2021.<br>
 <!------------------------>
 
 ## 2019
+<hr/>
 
 <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves.pdf">**TrustFS: An SGX-Enabled Stackable File System Framework.**</a><br>
 Tânia Esteves, Ricardo Macedo, Alberto Faria, Bernardo Portela, João Paulo, José Pereira, Danny Harnik.<br>
@@ -115,6 +118,7 @@ In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st
 <!------------------------>
 
 ## 2018
+<hr/>
 
 <a href="https://taniaesteves.github.io/files/2018/msc_thesis_taniaesteves.pdf">**Sistemas de Armazenamento Configuráveis e Seguros.**</a><br>
 Tânia Esteves. Supervised by [Prof. João Paulo](https://jtpaulo.github.io/) and [Prof. José Pereira](https://www.inesctec.pt/en/people/jose-orlando-pereira).<br>

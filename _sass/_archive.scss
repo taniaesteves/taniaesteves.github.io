@@ -15,7 +15,7 @@
   }
 
   a {
-    text-decoration: underline;
+    // text-decoration: underline;
 
     &:hover {
       text-decoration: underline;
@@ -24,6 +24,11 @@
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
+  }
+
+  p {
+    font-size: 0.85em;
+    color: #444;
   }
 }
 
