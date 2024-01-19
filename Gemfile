@@ -26,3 +26,5 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem 'faraday', '0.17.3'
 end
+
+gem "webrick", "~> 1.8"
