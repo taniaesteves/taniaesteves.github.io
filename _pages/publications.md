@@ -86,13 +86,15 @@ In *ACM International Middleware Conference*, 2021.<br>
 <span style="color:#063c72">**S2Dedup: SGX-enabled Secure Deduplication.**</span><br>
 Mariana Miranda, Tânia Esteves, Bernardo Portela, João Paulo.<br>
 In *International Systems and Storage Conference*, 2021.<br>
+<a href="https://taniaesteves.github.io/files/2021/s2dedup-systor21-marianamiranda.pdf">
+    <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
+</a>
 <a href="https://github.com/dsrhaslab/s2dedup">
     <img src="https://img.shields.io/badge/dsrhaslab%2Fs2dedup-white?style=plastic&logo=github&logoColor=white&labelColor=lightgray"/>
 </a>
 <a href="https://doi.org/10.1145/3456727.3463773">
   <img src="https://img.shields.io/badge/DOI-10.1145%2F3456727.3463773-white?style=plastic&labelColor=lightgray" />
 </a>
-
 
 <!------------------------>
 
