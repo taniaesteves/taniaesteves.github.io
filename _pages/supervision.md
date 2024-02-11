@@ -33,7 +33,7 @@ University of Minho, 2023.
 ## Other Supervision Activities
 <hr/>
 
-### 2022 - present
+### 2023 - present
 <hr/>
 
 **Diogo Costa** (BSc student).
