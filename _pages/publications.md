@@ -36,7 +36,9 @@ In *IEEE International Symposium on Reliable Distributed Systems*, 2023.<br>
 <a href="https://github.com/dsrhaslab/criba">
     <img src="https://img.shields.io/badge/dsrhaslab%2Fcriba-white?style=plastic&logo=github&logoColor=white&labelColor=lightgray"/>
 </a>
-
+<a href="https://doi.org/10.1109/SRDS60354.2023.00015">
+  <img src="https://img.shields.io/badge/DOI-10.1109/SRDS60354.2023.00015-white?style=plastic&labelColor=lightgray"  />
+</a>
 
 
 <span style="color:#063c72">**Diagnosing applications' I/O behavior through system call observability.**</span><br>
