@@ -26,7 +26,7 @@ In *IEEE Access*, 2023.<br>
 
 <span style="color:#063c72">**CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior.**</span><br>
 Tânia Esteves, Bruno Pereira, Rui Pedro Oliveira, João Marco, João Paulo.<br>
-In *IEEE International Symposium on Reliable Distributed Systems*, 2023.<br>
+In *42nd International Symposium on Reliable Distributed Systems (SRDS)*, 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/criba-srds23-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 </a>
@@ -43,7 +43,7 @@ In *IEEE International Symposium on Reliable Distributed Systems*, 2023.<br>
 
 <span style="color:#063c72">**Diagnosing applications' I/O behavior through system call observability.**</span><br>
 Tânia Esteves, Ricardo Macedo, Rui Oliveira, João Paulo.<br>
-In *IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th Workshop on Data-Centric Dependability and Security*, 2023.<br>
+In *53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W) @ 5th Workshop on Data-Centric Dependability and Security (DCDS)*, 2023.<br>
 <a href="https://taniaesteves.github.io/files/2023/dio-dcds23-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 </a>
@@ -70,7 +70,7 @@ In *IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th 
 
 <span style="color:#063c72">**CAT: Content-Aware Tracing and Analysis for Distributed Systems.**</span><br>
 Tânia Esteves, Francisco Neves, Rui Oliveira, João Paulo.<br>
-In *ACM International Middleware Conference*, 2021.<br>
+In *22nd International Middleware Conference (Middleware)*, 2021.<br>
 <a href="https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 </a>
@@ -87,7 +87,7 @@ In *ACM International Middleware Conference*, 2021.<br>
 
 <span style="color:#063c72">**S2Dedup: SGX-enabled Secure Deduplication.**</span><br>
 Mariana Miranda, Tânia Esteves, Bernardo Portela, João Paulo.<br>
-In *International Systems and Storage Conference*, 2021.<br>
+In *14th ACM International Conference on Systems and Storage (SYSTOR)*, 2021.<br>
 <a href="https://taniaesteves.github.io/files/2021/s2dedup-systor21-marianamiranda.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 </a>
@@ -105,7 +105,7 @@ In *International Systems and Storage Conference*, 2021.<br>
 
 <span style="color:#063c72">**TrustFS: An SGX-Enabled Stackable File System Framework.**</span><br>
 Tânia Esteves, Ricardo Macedo, Alberto Faria, Bernardo Portela, João Paulo, José Pereira, Danny Harnik.<br>
-In *38th International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems*, 2019.<br>
+In *38th International Symposium on Reliable Distributed Systems Workshops (SRDSW) @ 1st Workshop on Distributed and Reliable Storage Systems*, 2019.<br>
 <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 <a href="https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf">
