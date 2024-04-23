@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Flexible I/O Monitoring for Distributed Systems"
-description: "In *Eurosys'22*.<br>Rennes, France. 2022."
+description: "In <b>Eurosys'22</b>.<br>Rennes, France. 2022."
 img: https://taniaesteves.github.io/assets/img/poster-cat-preview.png
 importance: 2
 category: "2022"

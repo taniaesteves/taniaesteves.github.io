@@ -8,7 +8,7 @@ author_profile: true
 ## 2024
 <hr/>
 
-<span style="color:#063c72">**Flexible Tracing and Analysis of Applications’ I/O Behavior.**</span><br>
+<span style="color:#063c72">**Flexible Tracing and Analysis of Applications' I/O Behavior.**</span><br>
 Tânia Esteves. Supervised by [Prof. João Paulo](https://jtpaulo.github.io/) and [Prof. Rui Oliveira](https://www.inesctec.pt/en/people/rui-carlos-oliveira).<br>
 *PhD thesis, University of Minho, 2024.*<br>
 <a href="https://taniaesteves.github.io/files/2024/phd-thesis-tania-esteves.pdf">

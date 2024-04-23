@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Understanding storage I/O patterns through system call observability"
-description: "In *EuroSys'23*.<br>Rome, Italy. 2023."
+description: "In <b>EuroSys'23</b>.<br>Rome, Italy. 2023."
 img: https://taniaesteves.github.io/assets/img/poster-dio-preview.png
 importance: 1
 category: "2023"

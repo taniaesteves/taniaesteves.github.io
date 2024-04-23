@@ -56,20 +56,28 @@ Lyon, France. 2019.<br>
 <div class="post">
     <article>
         <div class="tryouts">
-        <!-- Display tryouts without categories -->
-        {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
-        <!-- Generate cards for each tryout -->
-        <div class="grid">
-            {%- for tryout in sorted_tryouts -%}
-            {% include tryout.html %}
-            {%- endfor %}
-        </div>
+            <!-- Display tryouts without categories -->
+            {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
+            <!-- Generate cards for each tryout -->
+            <div class="grid">
+                {%- for tryout in sorted_tryouts -%}
+                {% include tryout.html %}
+                {%- endfor %}
+            </div>
         </div>
     </article>
 </div>
 
 ## Others
 <hr/>
+
+<span style="color:#063c72">**Flexible Tracing and Analysis of Applications' I/O Behavior**.</span><br>
+*PhD thesis presentation at University of Minho*.<br>
+Guimarães, Portugal. 2024.<br>
+<a href="https://taniaesteves.github.io/files/2024/phd-thesis-tania-esteves-presentation.pdf">
+    <img src="https://img.shields.io/badge/-slides-white?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=lightgray" />
+</a>
+
 
 <span style="color:#063c72">**Diagnosing applications I/O behavior through system call observability**.</span><br>
 In *Cloud Computing Services and Applications*, class of the first year of the MEI MSc course in Informatics Engineering, at University of Minho.<br>

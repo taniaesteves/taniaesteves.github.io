@@ -16,37 +16,69 @@ author_profile: true
 Co-advised with João Paulo and João Marco.<br>
 University of Minho, 2023 *(Ongoing)*.
 
+### Concluded
+<hr>
+
 **Maria Ramos**.
 <span style="color:#063c72">**Realistic Fault Assessment in Distributed Storage Systems**.</span><br>
 Co-advised with João Paulo and Ricardo Macedo.<br>
-University of Minho, 2022 *(Ongoing)*.
-
-### Concluded
-<hr>
+University of Minho, 2022-2024.
 
 **Pedro Rodrigues**.
 <span style="color:#063c72">**Analysis of I/O patterns for Data Management Systems**.</span><br>
 Co-advised with João Paulo and Ricardo Vilaça.<br>
-University of Minho, 2023.
+University of Minho, 2021-2023.
 
 
 ## Other Supervision Activities
 <hr/>
 
-### 2023 - present
+### Research Mentoring
 <hr/>
 
-**Diogo Costa** (BSc student).
-<span style="color:#063c72">**I/O diagnosis**.</span><br>
+<span style="color:#063c72">**Research on eBPF**.</span> 2023 *(Ongoing)*<br>
+**Bruno Gião** (BSc student, from 2023) and **Carlos Machado** (MSc student, from 2024).<br>
 Co-supervision with João Paulo.
 
-**Rui Pedro Oliveira** (MSc student).
-<span style="color:#063c72">**Storage deduplication**.</span><br>
+<span style="color:#063c72">**Research on storage I/O diagnosis.**</span> 2023 *(Ongoing)*<br>
+**Diogo Costa** (BSc student).<br>
 Co-supervision with João Paulo.
 
-### 2022 - 2023
-<hr/>
+<span style="color:#063c72">**Research on storage deduplication.**</span> 2023 *(Ongoing)*<br>
+**Rui Pedro Oliveira** (MSc student).<br>
+Co-supervision with João Paulo.
 
-**Bruno Pereira** (MSc student) and **Rui Pedro Oliveira** (BSc student).
-<span style="color:#063c72">**Ransomware I/O diagnosis**.</span><br>
+<span style="color:#063c72">**Research on ransomware I/O diagnosis.**</span> 2022-2023.<br>
+**Bruno Pereira** (MSc student) and **Rui Pedro Oliveira** (BSc student).<br>
 Co-supervision with João Paulo and João Marco.
+
+
+
+### Academic / Scientific projects
+<hr/>
+
+<span style="color:#063c72">**I/O Behaviour Analysis on Android Targeted Ransomware.**</span> 2023/09 - 2024/01<br>
+**Beatriz Oliveira**, **Bruno Pereira** and **Bruno Machado** (MSc students).<br>
+Academic project for the Informatics Project class (PI)<br>
+2nd year of the Informatics Engineering MSc course (MEI), U. Minho<br>
+Co-supervision with João Paulo and João Marco.
+
+<span style="color:#063c72">**Study of the I/O behavior of ransomware families in Windows.**</span> 2023/09 - 2024/01<br>
+**Fernando Lobo** and **André Sá** (MSc students)<br>
+Academic project for the Informatics Project class (PI)<br>
+2nd year of the Informatics Engineering MSc course (MEI), U. Minho<br>
+Co-supervision with João Paulo and João Marco.
+
+
+<span style="color:#063c72">**Applications' I/O interception and analysis.**</span> 2023/09 - 2024/01<br>
+**Alexandre Miranda**, **Alexandre Ferreira**, **João Azevedo** and **Paulo Araújo** (MSc students)<br>
+Academic project for the Informatics Engineering Laboratory class (LEI)<br>
+4th year of the Integrated Master in Informatics Engineering course (MIEI), U. Minho<br>
+Co-supervision with João Paulo.
+
+<span style="color:#063c72">**Big Data applications analysis.**</span> 2023/09 - 2024/01<br>
+**Diogo Ribeiro** and **Rui Mendes** (MSc students)<br>
+Academic project for the Informatics Engineering Laboratory class (LEI)<br>
+4th year of the Integrated Master in Informatics Engineering course (MIEI), U. Minho<br>
+Co-supervision with João Paulo.
+
