@@ -36,7 +36,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [Ricardo Vilaça](h
 ### Research Mentoring
 <hr/>
 
-2024 (ongoing). <span style="color:#063c72">**Research on kubernetes applied to data spaces**.</span><br>
+2024 (ongoing). <span style="color:#063c72">**Research on Kubernetes applied to data spaces**.</span><br>
 **Gonçalo Marinho** and **Henrique Vaz** (MSc students)<br>
 Co-advised with [Fábio Coelho](https://www.inesctec.pt/en/people/fabio-andre-coelho)
 
@@ -48,15 +48,15 @@ Co-advised with [João Paulo](https://jtpaulo.github.io). -->
 **Bruno Gião** (BSc student) and **Carlos Machado** (MSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-2023 (ongoing). <span style="color:#063c72">**Research on storage I/O diagnosis.**</span><br>
+2023 (ongoing). <span style="color:#063c72">**Research on storage I/O diagnosis for data centric applications.**</span><br>
 **Diogo Costa** (BSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-2023 (ongoing). <span style="color:#063c72">**Research on storage deduplication.**</span><br>
+2023 (ongoing). <span style="color:#063c72">**Research on hybrid deduplication for SPDK.**</span><br>
 **Rui Pedro Oliveira** (MSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-2022-2023. <span style="color:#063c72">**Research on ransomware I/O diagnosis.**</span><br>
+2022-2023. <span style="color:#063c72">**Research on ransomware I/O analysis and characterization.**</span><br>
 **Bruno Pereira** (MSc student) and **Rui Pedro Oliveira** (BSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://www.inesctec.pt/en/people/joao-marco)
 

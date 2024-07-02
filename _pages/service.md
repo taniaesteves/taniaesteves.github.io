@@ -17,3 +17,4 @@ author_profile: true
 
 **2024** - Science of Computer Programming ([SCICO](https://www.sciencedirect.com/journal/science-of-computer-programming)).
 
+**2024** - IEEE Transactions on Parallel and Distributed Systems ([TPDS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71)).
