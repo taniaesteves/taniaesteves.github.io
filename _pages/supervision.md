@@ -11,6 +11,16 @@ author_profile: true
 <!-- ### Ongoing
 <hr> -->
 
+2024 (ongoing). **Ana Rita Vaz**.
+<span style="color:#063c72">**Characterization of HPC applications**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).
+
+2024 (ongoing). **Carlos Machado**.
+<span style="color:#063c72">**Improving the observability of complex I/O stacks**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).
+
 2023 (ongoing). **Bruno Pereira**.
 <span style="color:#063c72">**Analysis and detection of Ransomware's I/O patterns**.</span><br>
 University of Minho.
@@ -48,12 +58,12 @@ Co-advised with [João Paulo](https://jtpaulo.github.io). -->
 **Bruno Gião** (BSc student) and **Carlos Machado** (MSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-2023 (ongoing). <span style="color:#063c72">**Research on storage I/O diagnosis for data centric applications.**</span><br>
-**Diogo Costa** (BSc student)<br>
-Co-advised with [João Paulo](https://jtpaulo.github.io)
-
 2023 (ongoing). <span style="color:#063c72">**Research on hybrid deduplication for SPDK.**</span><br>
 **Rui Pedro Oliveira** (MSc student)<br>
+Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+2023-2024. <span style="color:#063c72">**Research on storage I/O diagnosis for data centric applications.**</span><br>
+**Diogo Costa** (BSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2022-2023. <span style="color:#063c72">**Research on ransomware I/O analysis and characterization.**</span><br>
@@ -64,6 +74,12 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva]
 
 ### Academic / Scientific projects
 <hr/>
+
+2023/09 (ongoing). <span style="color:#063c72">**I/O Characterization of DL models and LLMs with eBPF**</span><br>
+**Carlos Machado**, **André Ferreira** and **Gonçalo Sousa** (MSc students)<br>
+Academic project for the Informatics Project class (PI)<br>
+2nd year of the Informatics Engineering MSc course (MEI)<br>
+University of Minho. Co-advised with [Cláudia Brito](https://claudiavmbrito.github.io)
 
 2023/09 - 2024/01. <span style="color:#063c72">**I/O Behaviour Analysis on Android Targeted Ransomware.**</span><br>
 **Beatriz Oliveira**, **Bruno Pereira** and **Bruno Machado** (MSc students)<br>
@@ -89,4 +105,3 @@ University of Minho. Co-advised with [João Paulo](https://jtpaulo.github.io)
 Academic project for the Informatics Engineering Laboratory class (LEI)<br>
 4th year of the Integrated Master in Informatics Engineering course (MIEI)<br>
 University of Minho. Co-advised with [João Paulo](https://jtpaulo.github.io)
-
