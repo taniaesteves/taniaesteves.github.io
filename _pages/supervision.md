@@ -31,7 +31,7 @@ University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io).
 
 2023 (ongoing). **Bruno Pereira**.
-<span style="color:#063c72">**Analysis and detection of Ransomware's I/O patterns**.</span><br>
+<span style="color:#063c72">**Towards Optimized Development and Testing of Ransomware Detection Solutions**.</span><br>
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://www.inesctec.pt/en/people/joao-marco)
 
