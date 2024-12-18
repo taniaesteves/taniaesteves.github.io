@@ -5,6 +5,15 @@ permalink: /supervision/
 author_profile: true
 ---
 
+## PhD theses
+<hr/>
+
+2024 (ongoing). **Maria Ramos**.
+<span style="color:#063c72">**Assessing the fault tolerance of data-centric applications**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).<br>
+
+
 ## MSc theses
 <hr/>
 
@@ -75,7 +84,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva]
 ### Academic / Scientific projects
 <hr/>
 
-2023/09 (ongoing). <span style="color:#063c72">**I/O Characterization of DL models and LLMs with eBPF**</span><br>
+2023/09 - 2024/11. <span style="color:#063c72">**I/O Characterization of DL models and LLMs with eBPF**</span><br>
 **Carlos Machado**, **André Ferreira** and **Gonçalo Sousa** (MSc students)<br>
 Academic project for the Informatics Project class (PI)<br>
 2nd year of the Informatics Engineering MSc course (MEI)<br>
