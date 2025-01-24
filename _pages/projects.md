@@ -5,6 +5,15 @@ permalink: /projects/
 author_profile: true
 ---
 
+### <span style="color:#063c72">BCD.S+M: Sistema Modular de Armazenamento e Gestão de Dados em Blockchain com IA</span>
+**Researcher**<br>
+2024 -- Present<br>
+Research and development of new data storage and management solutions for blockchain.<br>
+<a href="">
+  <img src="https://img.shields.io/badge/Reference-14436--NORTE2030--FEDER--00584600-white?style=plastic&labelColor=lightgray"  />
+</a>
+<hr>
+
 
 ### <span style="color:#063c72">BigHPC: A Management Framework for Consolidated Big Data and HPC</span>
 **Researcher**<br>

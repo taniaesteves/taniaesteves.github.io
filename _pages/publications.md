@@ -5,21 +5,29 @@ permalink: /publications/
 author_profile: true
 ---
 
+
 ## 2024
 <hr/>
 
+<span style="color:#063c72">**Promoting sustainable and personalized travel behaviors while preserving data privacy**</span><br>
+Cláudia Brito, Noela Pina, Tânia Esteves, Ricardo Vitorino, Inês Cunha, and João Paulo.<br>
+In *Transportation Engineering*, 2025.<br>
+<a href="https://doi.org/10.1016/j.treng.2024.100237">
+  <img src="https://img.shields.io/badge/DOI-10.1016/j.treng.2024.100237-white?style=plastic&labelColor=lightgray" />
+</a>
+
 <span style="color:#063c72">**When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection.**</span><br>
 Maria Ramos, João Azevedo, Kile Kingsbury, José Pereira, Tânia Esteves, Ricardo Macedo, and João Paulo.<br>
-In *PVLDB*, 2024 _(Just accepted)_.<br>
+In *Proceedings of the VLDB Endowment 17, no. 11: 3017-3030*, 2024.<br>
 <!-- <a href="https://taniaesteves.github.io/files/2024/phd-thesis-tania-esteves.pdf">
     <img src="https://img.shields.io/badge/-pdf-white?style=plastic&logo=Adobe%20Acrobat%20Reader&logoColor=white&labelColor=lightgray" />
 </a> -->
 <!-- <a href="https://taniaesteves.github.io/files/2024/phd-thesis-tania-esteves-presentation.pdf">
     <img src="https://img.shields.io/badge/-slides-white?style=plastic&logo=microsoft-powerpoint&logoColor=white&labelColor=lightgray" />
 </a> -->
-<!-- <a href="https://hdl.handle.net/1822/64184">
-  <img src="https://img.shields.io/badge/URI-1822/64184-white?style=plastic&labelColor=lightgray" />
-</a> -->
+<a href="https://doi.org/10.14778/3681954.3681980">
+  <img src="https://img.shields.io/badge/DOI-10.14778/3681954.3681980-white?style=plastic&labelColor=lightgray" />
+</a>
 <a href="https://github.com/dsrhaslab/lazyfs">
     <img src="https://img.shields.io/badge/dsrhaslab%2Flazy-white?style=plastic&logo=github&logoColor=white&labelColor=lightgray"/>
 </a>

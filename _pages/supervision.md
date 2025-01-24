@@ -21,7 +21,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io).<br>
 <hr> -->
 
 2024 (ongoing). **Ana Rita Vaz**.
-<span style="color:#063c72">**Characterization of HPC applications**.</span><br>
+<span style="color:#063c72">**I/O Characterization of HPC applications**.</span><br>
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io).
 
