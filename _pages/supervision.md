@@ -13,12 +13,21 @@ author_profile: true
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io).<br>
 
+2025 (ongoing). **Bruno Pereira**.
+<span style="color:#063c72">**Secure and Resilient Storage System Against Ransomware**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).
 
 ## MSc theses
 <hr/>
 
 <!-- ### Ongoing
 <hr> -->
+
+2024 (ongoing). **Daniel Du**.
+<span style="color:#063c72">**Automated Security Testing in CI/CD Pipelines for Infrastructure as Code (IaC)**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).
 
 2024 (ongoing). **Ana Rita Vaz**.
 <span style="color:#063c72">**I/O Characterization of HPC applications**.</span><br>
@@ -30,7 +39,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io).
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io).
 
-2023 (ongoing). **Bruno Pereira**.
+2023-2025. **Bruno Pereira**.
 <span style="color:#063c72">**Towards Optimized Development and Testing of Ransomware Detection Solutions**.</span><br>
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://www.inesctec.pt/en/people/joao-marco)
