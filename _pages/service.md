@@ -8,14 +8,14 @@ author_profile: true
 ### <span style="color:#063c72">Program Committee Member</span>
 <hr>
 
-**2024** - ACM European Conference on Computer Systems ([EuroSys'25'](https://2025.eurosys.org)) [ShadowPC].
+**2025** - ACM European Conference on Computer Systems ([EuroSys'25'](https://2025.eurosys.org)) [ShadowPC].
 
 ### <span style="color:#063c72">Artifact Evaluation Committee Member</span>
 <hr>
 
 **2025** - International Conference on Distributed Applications and Interoperable Systems ([DAIS'25](https://www.discotec.org/2025/dais)).
 
-**2024** - 20th European Conference on Computer Systems -- Spring cycle ([EuroSys'25](https://2025.eurosys.org)).
+**2025** - 20th European Conference on Computer Systems -- Spring cycle ([EuroSys'25](https://2025.eurosys.org)).
 
 **2023** - International Conference on Distributed Applications and Interoperable Systems ([DAIS'23](http://www.discotec.org/2023/dais.html)).
 
