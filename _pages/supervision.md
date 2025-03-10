@@ -64,6 +64,14 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [Ricardo Vilaça](h
 ### Research Mentoring
 <hr/>
 
+2024 (ongoing). <span style="color:#063c72">**Research on otimizing ransomware analysis and detection**.</span><br>
+**Rui Lopes** (MSc student)<br>
+Co-advised with [João Paulo](https://jtpaulo.github.io) and Bruno Pereira
+
+2024 (ongoing). <span style="color:#063c72">**Research on storage fault injection**.</span><br>
+**Paula Marques** (MSc student) and **Gustavo Santos** (BSc student)<br>
+Co-advised with [João Paulo](https://jtpaulo.github.io) and Maria Ramos
+
 2024 (ongoing). <span style="color:#063c72">**Research on Kubernetes applied to data spaces**.</span><br>
 **Gonçalo Marinho** and **Henrique Vaz** (MSc students)<br>
 Co-advised with [Fábio Coelho](https://www.inesctec.pt/en/people/fabio-andre-coelho)
