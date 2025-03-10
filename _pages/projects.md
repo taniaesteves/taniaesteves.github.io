@@ -5,6 +5,15 @@ permalink: /projects/
 author_profile: true
 ---
 
+### <span style="color:#063c72">BringTrust: Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property</span>
+**Researcher**<br>
+2025 -- Present<br>
+Research and development of secure CI/CD environments for protecting data and intellectual property throughout workflows.<br>
+<!-- <a href="">
+  <img src="https://img.shields.io/badge/Reference-18493--COMPETE2030-FEDER-01489500-white?style=plastic&labelColor=lightgray"  />
+</a> -->
+<hr>
+
 ### <span style="color:#063c72">BCD.S+M: Sistema Modular de Armazenamento e Gestão de Dados em Blockchain com IA</span>
 **Researcher**<br>
 2024 -- Present<br>
