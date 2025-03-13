@@ -27,17 +27,17 @@ Co-advised with [João Paulo](https://jtpaulo.github.io).
 2024 (ongoing). **Daniel Du**.
 <span style="color:#063c72">**Automated Security Testing in CI/CD Pipelines for Infrastructure as Code (IaC)**.</span><br>
 University of Minho.
-Co-advised with [João Paulo](https://jtpaulo.github.io).
+Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2024 (ongoing). **Ana Rita Vaz**.
 <span style="color:#063c72">**I/O Characterization of HPC applications**.</span><br>
 University of Minho.
-Co-advised with [João Paulo](https://jtpaulo.github.io).
+Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2024 (ongoing). **Carlos Machado**.
 <span style="color:#063c72">**Improving the observability of complex I/O stacks**.</span><br>
 University of Minho.
-Co-advised with [João Paulo](https://jtpaulo.github.io).
+Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2023-2025. **Bruno Pereira**.
 <span style="color:#063c72">**Towards Optimized Development and Testing of Ransomware Detection Solutions**.</span><br>
@@ -80,8 +80,8 @@ Co-advised with [Fábio Coelho](https://www.inesctec.pt/en/people/fabio-andre-co
 **Carlos Machado** (MSc student).<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io). -->
 
-2023 (ongoing). <span style="color:#063c72">**Research on files observability with eBPF**.</span><br>
-**Bruno Gião** (BSc student) and **Carlos Machado** (MSc student)<br>
+2023 (ongoing). <span style="color:#063c72">**Research on system observability with eBPF**.</span><br>
+**Bruno Gião** (BSc student)<br>
 Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2023 (ongoing). <span style="color:#063c72">**Research on hybrid deduplication for SPDK.**</span><br>
@@ -101,7 +101,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva]
 ### Academic / Scientific projects
 <hr/>
 
-2023/09 - 2024/11. <span style="color:#063c72">**I/O Characterization of DL models and LLMs with eBPF**</span><br>
+2024/09 - 2024/11. <span style="color:#063c72">**I/O Characterization of DL models and LLMs with eBPF**</span><br>
 **Carlos Machado**, **André Ferreira** and **Gonçalo Sousa** (MSc students)<br>
 Academic project for the Informatics Project class (PI)<br>
 2nd year of the Informatics Engineering MSc course (MEI)<br>
