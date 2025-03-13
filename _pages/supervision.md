@@ -8,15 +8,15 @@ author_profile: true
 ## PhD theses
 <hr/>
 
-2024 (ongoing). **Maria Ramos**.
-<span style="color:#063c72">**Assessing the fault tolerance of data-centric applications**.</span><br>
-University of Minho.
-Co-advised with [João Paulo](https://jtpaulo.github.io).<br>
-
 2025 (ongoing). **Bruno Pereira**.
 <span style="color:#063c72">**Secure and Resilient Storage System Against Ransomware**.</span><br>
 University of Minho.
 Co-advised with [João Paulo](https://jtpaulo.github.io).
+
+2024 (ongoing). **Maria Ramos**.
+<span style="color:#063c72">**Assessing the fault tolerance of data-centric applications**.</span><br>
+University of Minho.
+Co-advised with [João Paulo](https://jtpaulo.github.io).<br>
 
 ## MSc theses
 <hr/>
