@@ -1,18 +1,10 @@
 ---
 ---
 
-<!-- <p>
-{{ reference }}
-{% if entry.url %}<a href="{{ entry.url }}"><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
-{% if entry.pdf %}<a href="{{ entry.pdf }}"><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
-{% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
-{% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
-</p> -->
-
 <div class="row">
     <div class="col col-sm-2 abbr">
         <a href="{{ entry.url }}">
-            <img src="{{ entry.preview }}" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+            <img src="{{ entry.preview }}" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" >
         </a>
 
     </div>
@@ -24,10 +16,5 @@
             {% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
             {% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
         </p>
-        <!-- <div class="title">The Holon Approach for Simultaneously Tuning Multiple Components in a Self-Driving Database Management System with Machine Learning via Synthesized Proto-Actions</div>
-        <div class="author"> William Zhang,&nbsp;Wan Shen Lim,&nbsp;<em>Matthew Butrovich</em>, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Andrew Pavlo' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.html(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div>
-        <div class="periodical"> <em>Proc. VLDB Endow.</em>, 2024 </div>
-        <div class="periodical"> </div>
-        <div class="links"> <a href="https://www.vldb.org/pvldb/vol17/p3373-zhang.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> -->
     </div>
 </div>
