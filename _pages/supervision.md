@@ -66,7 +66,7 @@ Co-advised with [João Paulo](https://jtpaulo.github.io) and [Ricardo Vilaça](h
 
 2024 (ongoing). <span style="color:#063c72">**Research on otimizing ransomware analysis and detection**.</span><br>
 **Rui Lopes** (MSc student)<br>
-Co-advised with [João Paulo](https://jtpaulo.github.io) and Bruno Pereira
+Co-advised with Bruno Pereira
 
 2024 (ongoing). <span style="color:#063c72">**Research on storage fault injection**.</span><br>
 **Paula Marques** (MSc student) and **Gustavo Santos** (BSc student)<br>
@@ -82,7 +82,6 @@ Co-advised with [João Paulo](https://jtpaulo.github.io). -->
 
 2023 (ongoing). <span style="color:#063c72">**Research on system observability with eBPF**.</span><br>
 **Bruno Gião** (BSc student)<br>
-Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 2023 (ongoing). <span style="color:#063c72">**Research on hybrid deduplication for SPDK.**</span><br>
 **Rui Pedro Oliveira** (MSc student)<br>
