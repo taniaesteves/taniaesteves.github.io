@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Researcher at [INESC TEC](https://www.inesctec.pt/en) ([DSR HASLab](https://dsr-haslab.github.io/) group) and an Invited Assistant Professor at [University of Minho](https://www.uminho.pt/EN).
+I am an Assistant Researcher at [INESC TEC](https://www.inesctec.pt/en) ([DSR HASLab](https://dsr-haslab.github.io/) group) and an Invited Assistant Professor at [University of Minho](https://www.uminho.pt/EN).
 My current focus is on diagnosing applications' I/O behavior, with an emphasis on designing and building non-intrusive, comprehensive, flexible and automated tracing and analysis tools.
 
 

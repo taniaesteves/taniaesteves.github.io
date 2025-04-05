@@ -13,10 +13,12 @@ horizontal: false
 {% assign my_array = site.data.talks | where: "type", "Conference" %}
 {% for item in my_array %}
 <div class="talk">
+<p>
     <span style="color:#063c72"><strong>{{ item.title }}</strong><br></span>
     {{ item.venue }}.<br>
     {{ item.location }}. {{ item.year }}.<br>
     {% if item.slides %}<a href="{{ item.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
+</p>
 </div>
 {% endfor %}
 
@@ -27,10 +29,12 @@ horizontal: false
 {% assign my_array = site.data.talks | where: "type", "Workshop" %}
 {% for item in my_array %}
 <div class="talk">
+<p>
     <span style="color:#063c72"><strong>{{ item.title }}</strong><br></span>
     {{ item.venue }}.<br>
     {{ item.location }}. {{ item.year }}.<br>
     {% if item.slides %}<a href="{{ item.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
+</p>
 </div>
 {% endfor %}
 
@@ -59,9 +63,11 @@ horizontal: false
 {% assign my_array = site.data.talks | where: "type", "Other" %}
 {% for item in my_array %}
 <div class="talk">
+<p>
     <span style="color:#063c72"><strong>{{ item.title }}</strong><br></span>
     {{ item.venue }}.<br>
     {{ item.location }}. {{ item.year }}.<br>
     {% if item.slides %}<a href="{{ item.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
+    </p>
 </div>
 {% endfor %}

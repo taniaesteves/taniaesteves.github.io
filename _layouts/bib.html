@@ -1,20 +1,16 @@
 ---
 ---
 
-<div class="row">
-    <div class="col col-sm-2 abbr">
-        <a href="{{ entry.url }}">
-            <img src="{{ entry.preview }}" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" >
-        </a>
-
-    </div>
-    <div id="ZhangLBP24" class="col-sm-8">
-        <p>
-            {{ reference }}
-            {% if entry.url %}<a href="{{ entry.url }}"><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
-            {% if entry.pdf %}<a href="{{ entry.pdf }}"><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
-            {% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
-            {% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
-        </p>
-    </div>
+<!-- <div class="row">
+    <div class="col-sm-8"> -->
+<div class="talk">
+    <p>
+    {{ reference }}
+    {% if entry.url %}<a href="{{ entry.url }}"><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+    {% if entry.pdf %}<a href="{{ entry.pdf }}"><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
+    {% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
+    {% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
+</p>
 </div>
+    <!-- </div>
+</div> -->
