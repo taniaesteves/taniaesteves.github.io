@@ -1,0 +1,45 @@
+- acronym: BringTrust
+  title: Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property
+  role: Local co-coordinator (INESC TEC team) & Researcher
+  description: Research and development of secure CI/CD environments for protecting data and intellectual property throughout workflows.
+  date_start: 2025
+  date_end:
+  reference:
+  website:
+
+- acronym: BCD.S+M
+  title: Sistema Modular de Armazenamento e Gestão de Dados em Blockchain com IA
+  role: Researcher
+  description: Research and development of new data storage and management solutions for blockchain.
+  date_start: 2024
+  date_end:
+  reference: 14436--NORTE2030--FEDER--00584600
+  partners: InvisibleLab & INESC TEC
+  website:
+
+- acronym: BigHPC
+  title: A Management Framework for Consolidated Big Data and HPC
+  role: Researcher
+  description: Research and development of I/O diagnosis tools for HPC applications and infrastructures.
+  date_start: 2020
+  date_end: 2023
+  reference: POCI--01--0247--FEDER--045924
+  website: https://bighpc.wavecom.pt/
+
+- acronym: CENTRA
+  title: Efficient and Secure Data Management for HPC and Cloud Computing
+  role: Researcher
+  description: Research and development of secure storage solutions for cloud and HPC infrastructures.
+  date_start: 2018
+  date_end:
+  reference:
+  website: http://www.globalcentra.org/projects/#prv
+
+- title: IBM Research Haifa --- Joint Study Agreement
+  role: Researcher
+  description: |
+    Research and development of a secure and stackable file system solution with deduplication and compression features.
+  date_start: 2018
+  date_end: 2020
+  reference:
+  website:
