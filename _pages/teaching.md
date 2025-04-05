@@ -4,47 +4,13 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-
-### 2024/2025
-<hr/>
-
-<span style="color:#063c72">**Operating Systems**</span><br>
-*Invited Assistant Professor (25%)*<br>
-2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-
-<span style="color:#063c72">**Cloud Computing Services and Applications**</span><br>
-*Invited Assistant Professor (25%)*<br>
-1st year of the Informatics Engineering MSc course (MEI), U. Minho
-
-### 2023/2024
-<hr/>
-
-<span style="color:#063c72">**Operating Systems**</span><br>
-*Invited Assistant Professor (25%)*<br>
-2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-
-<span style="color:#063c72">**Cloud Computing Services and Applications**</span><br>
-*Invited Assistant Professor (25%)*<br>
-1st year of the Informatics Engineering MSc course (MEI), U. Minho
-
-### 2022/2023
-<hr/>
-
-<span style="color:#063c72">**Cloud Computing Services and Applications**</span><br>
-*Invited Assistant Professor (25%)*<br>
-1st year of the Informatics Engineering MSc course (MEI), U. Minho
-
-<span style="color:#063c72">**Operating Systems**</span><br>
-*Invited Assistant Professor (25%)*<br>
-2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-
-### 2021/2022
-<hr/>
-
-<span style="color:#063c72">**Cloud Computing Services and Applications**</span><br>
-*Invited Assistant Professor (25%)*<br>
-1st year of the Informatics Engineering MSc course (MEI), U. Minho
-
-<span style="color:#063c72">**Operating Systems**</span><br>
-*Invited Assistant Professor (25%)*<br>
-2nd year of the Informatics Engineering BSc course (LEI), U. Minho
+{% assign uc_list = site.data.teaching | group_by: "year" %}
+{% for year_list in uc_list %}
+<h2>{{ year_list.name }}</h2>
+<hr>
+{% for uc in year_list.items %}
+### <span style="color:#063c72">{{ uc.title }}</span>
+**{{ uc.position }}**<br>
+{{uc.class}}<br>
+{% endfor %}
+{% endfor %}
