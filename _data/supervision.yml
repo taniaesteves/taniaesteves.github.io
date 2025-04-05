@@ -1,0 +1,181 @@
+#######
+# PhD #
+#######
+
+- title: Secure and Resilient Storage System Against Ransomware
+  students: Bruno Pereira
+  type: PhD
+  start_date: 2025
+  end_date:
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Assessing the fault tolerance of data-centric applications
+  students: Maria Ramos
+  type: PhD
+  start_date: 2024
+  end_date:
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+#######
+# MSc #
+#######
+
+- title: Automated Security Testing in CI/CD Pipelines for Infrastructure as Code (IaC)
+  students: Daniel Du
+  type: MSc
+  start_date: 2024
+  end_date:
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: I/O Characterization of HPC applications
+  students: Ana Rita Vaz
+  type: MSc
+  start_date: 2024
+  end_date:
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Improving the observability of complex I/O stacks
+  students: Carlos Machado
+  type: MSc
+  start_date: 2024
+  end_date:
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Towards Optimized Development and Testing of Ransomware Detection Solutions
+  students: Bruno Pereira
+  type: MSc
+  start_date: 2023
+  end_date: 2025
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://jotamarco.github.io)
+
+- title: Realistic Fault Assessment in Distributed Storage Systems
+  students: Maria Ramos
+  type: MSc
+  start_date: 2022
+  end_date: 2024
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and [Ricardo Macedo](https://rgmacedo.github.io)
+
+- title: Analysis of I/O patterns for Data Management Systems
+  students: Pedro Rodrigues
+  type: MSc
+  start_date: 2021
+  end_date: 2023
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and [Ricardo Vilaça](https://rmpvilaca.github.io)
+
+
+#############
+# Mentoring #
+#############
+
+- title: Research on optimizing ransomware analysis and detection
+  students: "**Rui Lopes** (MSc student)"
+  type: Mentoring
+  start_date: 2024
+  end_date:
+  advisors: Co-advised with Bruno Pereira
+
+- title: Research on storage fault injection
+  students: "**Paula Marques** (MSc student) and **Gustavo Santos** (BSc student)"
+  type: Mentoring
+  start_date: 2024
+  end_date:
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and Maria Ramos
+
+- title: Research on Kubernetes applied to data spaces
+  students: "**Gonçalo Marinho** and **Henrique Vaz** (MSc students)"
+  type: Mentoring
+  start_date: 2024
+  end_date:
+  advisors: Co-advised with [Fábio Coelho](https://www.inesctec.pt/en/people/fabio-andre-coelho)
+
+- title: Research on system observability with eBPF
+  students: "**Bruno Gião** (MSc student)"
+  type: Mentoring
+  start_date: 2023
+  end_date:
+  advisors:
+
+- title: Research on hybrid deduplication for SPDK
+  students: "**Rui Pedro Oliveira** (MSc student)"
+  type: Mentoring
+  start_date: 2023
+  end_date:
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Research on storage I/O diagnosis for data centric applications
+  students: "**Diogo Costa** (BSc student)"
+  type: Mentoring
+  start_date: 2023
+  end_date: 2024
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Research on ransomware I/O analysis and characterization
+  students: "**Bruno Pereira** (MSc student) and **Rui Pedro Oliveira** (BSc student)"
+  type: Mentoring
+  start_date: 2022
+  end_date: 2023
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://jotamarco.github.io)
+
+
+#####################
+# Academic Projects #
+#####################
+
+- title: I/O Characterization of DL models and LLMs with eBPF
+  students: "**Carlos Machado**, **André Ferreira** and **Gonçalo Sousa** (MSc students)"
+  type: Academic Project
+  start_date: 2024/09
+  end_date: 2024/11
+  project: Academic project for the Informatics Project class (PI)
+  class: 2nd year of the Informatics Engineering MSc course (MEI)
+  venue: University of Minho
+  advisors: Co-advised with [Cláudia Brito](https://claudiavmbrito.github.io)
+
+
+- title: I/O Behaviour Analysis on Android Targeted Ransomware
+  students: "**Beatriz Oliveira**, **Bruno Pereira** and **Bruno Machado** (MSc students)"
+  type: Academic Project
+  start_date: 2023/09
+  end_date: 2024/01
+  project: Academic project for the Informatics Project class (PI)
+  class: 2nd year of the Informatics Engineering MSc course (MEI)
+  venue: University of Minho
+  advisors: Co-advised with [João Marco Silva](https://jotamarco.github.io)
+
+- title: Study of the I/O behavior of ransomware families in Windows
+  students: "**Fernando Lobo** and **André Sá** (MSc students)"
+  type: Academic Project
+  start_date: 2023/09
+  end_date: 2024/01
+  project: Academic project for the Informatics Project class (PI)
+  class: 2nd year of the Informatics Engineering MSc course (MEI)
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Applications' I/O interception and analysis
+  students: "**Alexandre Miranda**, **Alexandre Ferreira**, **João Azevedo** and **Paulo Araújo** (MSc students)"
+  type: Academic Project
+  start_date: 2021/02
+  end_date: 2021/06
+  project: Academic project for the Informatics Engineering Laboratory class (LEI)
+  class: 4th year of the Integrated Master in Informatics Engineering course (MIEI)
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+
+- title: Big Data applications analysis
+  students: "**Diogo Ribeiro** and **Rui Mendes** (MSc students)"
+  type: Academic Project
+  start_date: 2021/02
+  end_date: 2021/06
+  project: Academic project for the Informatics Engineering Laboratory class (LEI)
+  class: 4th year of the Integrated Master in Informatics Engineering course (MIEI)
+  venue: University of Minho
+  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
