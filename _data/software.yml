@@ -1,0 +1,19 @@
+- name: CRIBA
+  description: CRIBA is an open-source framework that simplifies the exploration, analysis, and comparison of I/O patterns for Linux cryptographic ransomware. It is built on top of DIO, a generic tool for observing and diagnosing the I/O interactions between applications and in-kernel POSIX storage systems.
+  git: https://github.com/dsrhaslab/criba
+  website:
+
+- name: DIO
+  description: DIO is a generic tool for observing and diagnosing applications storage I/O. It is designed to be used by applications developers and users to understand how applications interact with storage systems. By combining system call tracing, through eBPFs, with a customizable data analysis and visualization pipeline, DIO provide non-intrusive and comprehensive I/O diagnosis for applications using in-kernel POSIX storage systems (e.g., ext4, linux block device).
+  git: https://github.com/dsrhaslab/dio
+  website: https://dio-tool.netlify.app
+
+- name: CAT
+  description: CaT is a black-box content-aware tracing and analysis framework. It analyzes distributed systems in a non-intrusive way, highlighting how their components interact with each other and how data flows through the system. Its design enables the capture of detailed information related to I/O network and disk events, such as the context of the request and the data processed by the event. With this information, CaT proposes an analysis of the event’s content based on their similarity, allowing the detection of data flow patterns that are not visible when inspecting only the context of events.
+  git: https://github.com/dsrhaslab/cat
+  website:
+
+- name: TrustFS
+  description: TrustFS is an open-source programmable, and modular stackable file system framework for implement- ing secure content-aware storage functionalities over hardware-assisted trusted execution environments. TrustFS extends the original SafeFS architecture to provide the isolated execution guarantees of Intel SGX.
+  git: https://github.com/taniaesteves/TrustFS
+  website:
