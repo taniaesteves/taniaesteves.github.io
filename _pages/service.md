@@ -5,24 +5,11 @@ permalink: /service/
 author_profile: true
 ---
 
-### <span style="color:#063c72">Program Committee Member</span>
+{% assign service_list = site.data.service | group_by: "type" %}
+{% for type_list in service_list %}
+<h2><span style="color:#063c72">{{ type_list.name }}</span></h2>
 <hr>
-
-**2025** - 20th ACM European Conference on Computer Systems ([EuroSys'25'](https://2025.eurosys.org)) [ShadowPC].
-
-### <span style="color:#063c72">Artifact Evaluation Committee Member</span>
-<hr>
-
-**2025** - 24th International Conference on Distributed Applications and Interoperable Systems ([DAIS'25](https://www.discotec.org/2025/dais)).
-
-**2025** - 20th European Conference on Computer Systems -- Spring cycle ([EuroSys'25](https://2025.eurosys.org)).
-
-**2023** - 22nd International Conference on Distributed Applications and Interoperable Systems ([DAIS'23](http://www.discotec.org/2023/dais.html)).
-
-
-### <span style="color:#063c72">Journals (reviewer)</span>
-<hr>
-
-**2024** - IEEE Transactions on Parallel and Distributed Systems ([TPDS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71)).
-
-**2024** - Science of Computer Programming ([SCICO](https://www.sciencedirect.com/journal/science-of-computer-programming)).
+{% for service in type_list.items %}
+**{{ service.year }}** - {{ service.venue }} ([{{ service.acronym }}]({{ service.website }})) {% if service.additional_info %}{{ service.additional_info }}{% endif %}<br>
+{% endfor %}
+{% endfor %}
