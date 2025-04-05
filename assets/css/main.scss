@@ -10,9 +10,6 @@
  *
 */
 
-// Dimensions
-$max-content-width: {{ site.max_width }};
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -44,38 +41,3 @@ $max-content-width: {{ site.max_width }};
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-.bibliography {
-
-p {
-    color: #444;
-}
-
-span b {
-    color: #063c72;
-    display: block;
-}
-
-span span {
-    display: block;
-}
-
-}
-
-ol.bibliography {
-    padding-left: 0px;
-}
-
-h2.bibliography::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: rgb(241.7,242.5,243.1);
-    margin: 1em 0;
-}
-
-.talk {
-    // padding-inline-start: 40px;
-    margin-bottom: 18px;
-}

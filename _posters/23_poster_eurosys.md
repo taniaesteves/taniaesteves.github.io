@@ -12,5 +12,4 @@ author_profile: true
 **Year**: 2023<br>
 **Location**: Rome, Italy<br>
 
-<embed src="https://taniaesteves.github.io/files/2023/dio-eurosys23-taniaesteves-poster.pdf" width="1000px" height="600px" />
-
+<embed src="https://taniaesteves.github.io/assets/files/2023/dio-eurosys23-taniaesteves-poster.pdf" width="1000px" height="600px" />

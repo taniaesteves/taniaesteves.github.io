@@ -44,13 +44,13 @@ horizontal: false
 
 <div class="post">
     <article>
-        <div class="tryouts">
-            <!-- Display tryouts without categories -->
-            {%- assign sorted_tryouts = site.tryouts | sort: "importance" -%}
-            <!-- Generate cards for each tryout -->
+        <div class="posters">
+            <!-- Display posters without categories -->
+            {%- assign sorted_posters = site.posters | sort: "importance" -%}
+            <!-- Generate cards for each poster -->
             <div class="grid">
-                {%- for tryout in sorted_tryouts -%}
-                {% include tryout.html %}
+                {%- for poster in sorted_posters -%}
+                {% include poster.html %}
                 {%- endfor %}
             </div>
         </div>
