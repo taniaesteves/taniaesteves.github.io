@@ -1,23 +1,23 @@
 # main links links
 main:
 
-  - title: "Publications"
+  - title: Publications
     url: /publications/
 
-  - title: "Talks"
+  - title: Talks
     url: /talks/
 
-  - title: "Teaching"
+  - title: Teaching
     url: /teaching/
 
-  - title: "Supervision"
+  - title: Supervision
     url: /supervision/
 
-  - title: "Service"
+  - title: Service
     url: /service/
 
-  - title: "Projects"
+  - title: Projects
     url: /projects/
 
-  - title: "Software"
+  - title: Software
     url: /software/
