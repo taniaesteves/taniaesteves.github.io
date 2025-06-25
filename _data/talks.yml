@@ -3,60 +3,60 @@
   venue: In IEEE International Symposium on Reliable Distributed Systems
   year: 2023
   location: Marrakech, Morocco
-  slides: https://taniaesteves.github.io/files/2023/criba-srds23-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2023/criba-srds23-taniaesteves-presentation.pdf
 
 - title: "CAT: Content-Aware Tracing and Analysis for Distributed Systems"
   type: Conference
   venue: In ACM International Middleware Conference
   year: 2021
   location: Online
-  slides: https://taniaesteves.github.io/files/2021/cat-middleware21-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2021/cat-middleware21-taniaesteves-presentation.pdf
 
 - title: Diagnosing applications' I/O behavior through system call observability
   type: Workshop
   venue: In IEEE/IFIP International Conference on Dependable Systems and Networks @ 5th Workshop on Data-Centric Dependability and Security
   year: 2023
   location: Porto, Portugal
-  slides: https://taniaesteves.github.io/files/2023/dio-dcds23-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2023/dio-dcds23-taniaesteves-presentation.pdf
 
 - title: Flexible I/O Monitoring for Distributed Systems
   type: Workshop
   venue: In EuroSys Doctoral Workshop
   year: 2022
   location: Rennes, France
-  slides: https://taniaesteves.github.io/files/2022/eurodw22-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2022/eurodw22-taniaesteves-presentation.pdf
 
 - title: "TrustFS: An SGX-Enabled Stackable File System Framework"
   type: Workshop
   venue: In International Symposium on Reliable Distributed Systems Workshops @ 1st Workshop on Distributed and Reliable Storage Systems
   year: 2019
   location: Lyon, France
-  slides: https://taniaesteves.github.io/files/2019/trustfs-drss19-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2019/trustfs-drss19-taniaesteves-presentation.pdf
 
 - title: Flexible Tracing and Analysis of Applications' I/O Behavior
   type: Other
   venue: PhD thesis presentation at University of Minho
   year: 2024
   location: Guimarães, Portugal
-  slides: https://taniaesteves.github.io/files/2024/phd-thesis-tania-esteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2024/phd-thesis-tania-esteves-presentation.pdf
 
 - title: Diagnosing applications I/O behavior through system call observability
   type: Other
   venue: Presentation for Cloud Computing Services and Applications, class of the first year of the MEI MSc course in Informatics Engineering, at University of Minho.
   year: 2022
   location: Braga, Portugal
-  slides: https://taniaesteves.github.io/files/2022/ascn22_dio-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2022/ascn22_dio-presentation.pdf
 
 - title: "CAT: Content-aware Tracing and Analysis for Distributed Systems"
   type: Other
   venue: Encontro Nacional de Sistemas Distribuídos
   year: 2022
   location: Évora, Portugal
-  slides: https://taniaesteves.github.io/files/2022/cat-ensd22-taniaesteves-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2022/cat-ensd22-taniaesteves-presentation.pdf
 
 - title: Sistemas de Armazenamento Configuráveis e Seguros
   type: Other
   venue: Master thesis presentation at University of Minho
   year: 2018
   location: Braga, Portugal
-  slides: https://taniaesteves.github.io/files/2018/msc-thesis-taniaesteves-2018-presentation.pdf
+  slides: https://taniaesteves.github.io/assets/files/2018/msc-thesis-taniaesteves-2018-presentation.pdf
