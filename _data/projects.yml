@@ -15,7 +15,7 @@
   date_end:
   reference: 14436--NORTE2030--FEDER--00584600
   partners: InvisibleLab & INESC TEC
-  website:
+  website: https://invisiblelab-dev.github.io/invisible-storage-project-website/
 
 - acronym: BigHPC
   title: A Management Framework for Consolidated Big Data and HPC

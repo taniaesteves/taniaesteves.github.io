@@ -75,12 +75,12 @@
 # Mentoring #
 #############
 
-- title: Research on optimizing ransomware analysis and detection
-  students: "**Rui Lopes** (MSc student)"
-  type: Mentoring
-  start_date: 2024
-  end_date:
-  advisors: Co-advised with Bruno Pereira
+# - title: Research on optimizing ransomware analysis and detection
+#   students: "**Rui Lopes** (MSc student)"
+#   type: Mentoring
+#   start_date: 2024
+#   end_date:
+#   advisors: Co-advised with Bruno Pereira
 
 - title: Research on storage fault injection
   students: "**Paula Marques** (MSc student) and **Gustavo Santos** (BSc student)"

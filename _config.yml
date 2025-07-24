@@ -403,5 +403,5 @@ medium_zoom:
 
 scholar:
   # style: current-opinion
-  style: assets/cls/myrefstyle.csl
+  style: assets/csl/myrefstyle.csl
   bibliography_template: bib
