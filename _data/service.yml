@@ -1,3 +1,10 @@
+- type: Conferences/Workshops (Chair)
+  venue: 1st Workshop on Reliable Large-Scale Data Management
+  additional_info: " - co-located with SRDS'25. PC Chair."
+  acronym: RLDM'25
+  website: https://rldm.invisiblelab.dev
+  year: 2025
+
 - type: Artifact Evaluation Committee Member
   venue: 24th International Conference on Distributed Applications and Interoperable Systems
   acronym: DAIS'25
