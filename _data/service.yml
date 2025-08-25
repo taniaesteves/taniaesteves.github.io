@@ -1,3 +1,9 @@
+- type: Artifact Evaluation Committee Member
+  venue: 31st Symposium on Operating Systems Principles
+  acronym: SOSP'25
+  website: https://sigops.org/s/conferences/sosp/2025/
+  year: 2025
+
 - type: Organization
   venue: 1st Workshop on Reliable Large-Scale Data Management
   additional_info: " - co-located with SRDS'25. PC Chair."
