@@ -63,13 +63,13 @@
   advisors: Co-advised with [Fábio Coelho](https://www.inesctec.pt/en/people/fabio-andre-coelho)
 
 
-- title: Automated Security Testing in CI/CD Pipelines for Infrastructure as Code (IaC)
-  students: Daniel Du
-  type: MSc
-  start_date: 2024
-  end_date:
-  venue: University of Minho
-  advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
+# - title: Automated Security Testing in CI/CD Pipelines for Infrastructure as Code (IaC)
+#   students: Daniel Du
+#   type: MSc
+#   start_date: 2024
+#   end_date:
+#   venue: University of Minho
+#   advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
 
 - title: I/O Characterization of HPC applications
   students: Ana Rita Vaz
@@ -115,6 +115,13 @@
 #############
 # Mentoring #
 #############
+
+- title: Research on security of GitHub Actions
+  students: "**Anwaar Hussain** (External collaborator)"
+  type: Mentoring
+  start_date: 2026
+  end_date:
+  advisors:
 
 - title: Research on eBPF applied to ransomware detection
   students: "**Carlos Sanches** (MSc student)"

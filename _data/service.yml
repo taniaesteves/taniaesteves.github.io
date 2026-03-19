@@ -1,3 +1,28 @@
+- type: Journals (Reviewer)
+  venue: The Journal of Supercomputing
+  acronym: The Journal of Supercomputing
+  website: https://link.springer.com/journal/11227
+  year: 2026
+
+- type: Journals (Reviewer)
+  venue: Science of Computer Programming
+  acronym: SCICO
+  website: https://www.sciencedirect.com/journal/science-of-computer-programming
+  additional_info: "[Artifact Reviewer]"
+  year: 2026
+
+- type: Artifact Evaluation Committee Member
+  venue: 21st European Conference on Computer Systems -- Spring and Fall cycles
+  acronym: Eurosys'26
+  website: https://2026.eurosys.org
+  year: 2026
+
+- type: Program Committee Member
+  venue: 27th ACM International Middleware Conference
+  acronym: Middleware'26
+  website: https://middleware-conf.github.io/2026/
+  year: 2026
+
 - type: Artifact Evaluation Committee Member
   venue: 31st Symposium on Operating Systems Principles
   acronym: SOSP'25
@@ -40,6 +65,7 @@
   venue: Science of Computer Programming
   acronym: SCICO
   website: https://www.sciencedirect.com/journal/science-of-computer-programming
+  additional_info: "[Artifact Reviewer]"
   year: 2024
 
 - type: Artifact Evaluation Committee Member

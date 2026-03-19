@@ -1,10 +1,58 @@
+- acronym: INOCULUM
+  title: Alliance for Energy Transition
+  role: Researcher
+  description:
+  date_start: 2026
+  date_end:
+  reference: 15032 (NORTE2030-FEDER-00868400)
+  website: https://invisiblelab-dev.github.io/inoculum-project-website/
+
+- acronym: Rescueware
+  title: Intelligent and Self-configurable Cybersecurity and Data Recovery for Ransomware Resilience
+  role: Researcher
+  description: Research and development of ransomware detection and recovery solutions for healthcare infrastructures.
+  date_start: 2026
+  date_end:
+  reference: 21746 (NORTE2030-FEDER-02306900)
+  typology: P2030 I&D Enterprise (co-promotion).
+  partners:
+  - name: Invisible Lab
+    url: https://invisiblelab.dev
+  - name: INESC TEC
+    url: https://www.inesctec.pt
+  - name: ULSAM
+    url: https://www.ulsam.min-saude.pt
+  website: https://rescueware.invisiblelab.dev
+
+- acronym: WISE
+  title: Workload-Intelligent Data Storage for Next-Generation Advanced Computing Centers
+  role: Researcher
+  description: Research on profiling, classifying, and predicting the intrinsic I/O patterns of dynamic workloads in modern supercomputers.
+  date_start: 2025
+  date_end:
+  reference:
+  typology: FCT-UTAustin Exploratory Project
+  partners:
+    - name: TACC
+      url: https://www.tacc.utexas.edu
+    - name: INESC TEC
+      url: https://www.inesctec.pt
+  website:
+
 - acronym: BringTrust
   title: Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property
   role: Local co-coordinator (INESC TEC team) & Researcher
   description: Research and development of secure CI/CD environments for protecting data and intellectual property throughout workflows.
   date_start: 2025
   date_end:
-  reference:
+  reference: 18493 (COMPETE2030-FEDER-01489500)
+  partners:
+    - name: Scalabit
+      url: https://scalabit.dev
+    - name: INESC TEC
+      url: https://www.inesctec.pt
+    - name: Universidade do Algarve
+      url: https://www.ualg.pt
   website:
 
 - acronym: BCD.S+M
@@ -13,9 +61,23 @@
   description: Research and development of new data storage and management solutions for blockchain.
   date_start: 2024
   date_end:
-  reference: 14436--NORTE2030--FEDER--00584600
-  partners: InvisibleLab & INESC TEC
+  reference: 14436 (NORTE2030-FEDER-00584600)
+  partners:
+    - name: Invisible Lab
+      url: https://invisiblelab.dev
+    - name: INESC TEC
+      url: https://www.inesctec.pt
   website: https://invisiblelab-dev.github.io/invisible-storage-project-website/
+
+- acronym: ATE
+  title: Alliance for Energy Transition
+  role: Researcher
+  description:
+  date_start: 2023
+  date_end:
+  reference:
+  partners:
+  website: https://www.inesctec.pt/pt/projetos/ate
 
 - acronym: BigHPC
   title: A Management Framework for Consolidated Big Data and HPC
@@ -24,6 +86,16 @@
   date_start: 2020
   date_end: 2023
   reference: POCI--01--0247--FEDER--045924
+  partners:
+    - name: Wavecom
+    - name: INESC TEC
+      url: https://www.inesctec.pt
+    - name: LIP
+    - name: MACC
+    - name: UT Austin
+      url: https://www.utexas.edu
+    - name: TACC
+      url: https://www.tacc.utexas.edu
   website: https://bighpc.wavecom.pt/
 
 - acronym: CENTRA
@@ -33,6 +105,11 @@
   date_start: 2018
   date_end:
   reference:
+  partners:
+    - name: INESC TEC
+      url: https://www.inesctec.pt
+    - name: AIST
+    - name: KISTI
   website: http://www.globalcentra.org/projects/#prv
 
 - title: IBM Research Haifa --- Joint Study Agreement
