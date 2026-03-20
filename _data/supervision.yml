@@ -38,7 +38,7 @@
   venue: University of Minho
   advisors: Co-advised with [Hans P. Reiser](https://hreiser.github.io)
 
-- title: Relational Querying of operating system state with eBPF
+- title: Relational Querying of Operating System State with eBPF
   students: Bruno Gião
   type: MSc
   start_date: 2025
@@ -71,7 +71,7 @@
 #   venue: University of Minho
 #   advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-- title: I/O Characterization of HPC applications
+- title: Characterizing and Predicting the I/O Patterns of HPC Applications
   students: Ana Rita Vaz
   type: MSc
   start_date: 2024
@@ -79,7 +79,7 @@
   venue: University of Minho
   advisors: Co-advised with [João Paulo](https://jtpaulo.github.io)
 
-- title: Improving the observability of complex I/O stacks
+- title: "Bridging the Gap: A Comparison of the Design, Efficiency, and Fidelity of eBPF Libraries"
   students: Carlos Machado
   type: MSc
   start_date: 2024
@@ -95,7 +95,7 @@
   venue: University of Minho
   advisors: Co-advised with [João Paulo](https://jtpaulo.github.io) and [João Marco Silva](https://jotamarco.github.io)
 
-- title: Realistic Fault Assessment in Distributed Storage Systems
+- title: Reproducible Fault Injection in Local Storage Systems
   students: Maria Ramos
   type: MSc
   start_date: 2022
@@ -137,7 +137,7 @@
   end_date:
   advisors: Co-advised with [Cláudia Brito](https://claudiavmbrito.github.io)
 
-- title: Research on storage fault injection
+- title: Research on reproducible storage fault injection
   students: "**Paula Marques** (MSc student)"
   type: Mentoring
   start_date: 2024

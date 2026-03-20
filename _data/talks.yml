@@ -1,3 +1,18 @@
+- title: "Workshop on Docker (EPIC Júnior)"
+  type: Other
+  venue: Workshop on Docker for the for for members of EPIC JÚNIOR, the first junior engineering company at the University of Minho
+  year: 2025
+  location: Braga, Portugal
+  slides:
+
+- title: "Workshop on Docker (CESIUM)"
+  type: Other
+  venue: Workshop on Docker for the for students at the University of Minho's Software Engineering Students' Center (CESIUM), at University of Minho
+  year: 2025
+  location: Braga, Portugal
+  slides:
+
+
 - title: "CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior"
   type: Conference
   venue: In IEEE International Symposium on Reliable Distributed Systems
