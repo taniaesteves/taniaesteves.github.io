@@ -54,7 +54,8 @@ ol.bibliography {
   padding-left: 0px;
 }
 
-h2.bibliography::after {
+h2.bibliography::after,
+h2.talks-year::after {
   content: "";
   display: block;
   width: 100%;
@@ -146,3 +147,37 @@ h2.bibliography::after {
     margin: 0 0 4px;
   }
 }
+.pub--award {
+  border-left: 3px solid #d4a017;
+  padding-left: 0.8em;
+}
+
+.bibliography span.pub__award {
+  display: inline-block;
+  margin-bottom: 0.3em;
+  padding: 0.1em 0.6em;
+  border-radius: 1em;
+  background: #fdf3d7;
+  color: #8a6400;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.talk__type {
+  display: inline-block;
+  padding: 0.05em 0.6em;
+  border-radius: 1em;
+  background: #eef1f4;
+  color: #555;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  float: right;
+  margin: 0.2em 0 0.3em 0.8em;
+}
+
+.talk__type--conference { background: #e3edf7; color: #063c72; }
+.talk__type--workshop   { background: #e6f2ec; color: #1f6b45; }
+.talk__type--invited-talk { background: #fdf3d7; color: #8a6400; }
+.talk__type--tutorial   { background: #f1e9f7; color: #5b3a7a; }

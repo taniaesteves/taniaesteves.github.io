@@ -1,3 +1,20 @@
+- type: Artifact Evaluation Committee Member
+  venue: ASPLOS
+  acronym: ASPLOS'27
+  website: https://www.asplos-conference.org/asplos2027/
+  year: 2026
+
+- type: Poster Evaluation Committee Member
+  venue: 32nd International European Conference on Parallel and Distributed Computing
+  acronym: Euro-Par'26
+  website: https://2026.euro-par.org
+  year: 2026
+
+- type: Artifact Evaluation Committee Member
+  venue: Journal of Systems Research
+  acronym: JSys
+  website: https://www.jsys.org
+  year: 2026
 
 - type: Artifact Evaluation Committee Member
   venue: 20th USENIX Symposium on Operating Systems Design and Implementation

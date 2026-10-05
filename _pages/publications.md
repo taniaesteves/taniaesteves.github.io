@@ -5,4 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include list-filter.html %}
+
 {% bibliography --group_by year --group_order descending %}

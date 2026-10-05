@@ -1,0 +1,94 @@
+<div class="pub-filter" id="pub-filter">
+  <div class="pub-filter__group">
+    <label for="pub-filter-year">Year</label>
+    <select id="pub-filter-year">
+      <option value="all">All years</option>
+    </select>
+  </div>
+  <div class="pub-filter__group">
+    <span class="pub-filter__label">Type</span>
+    <div class="pub-filter__types" id="pub-filter-types">
+      <button type="button" class="pub-filter__btn is-active" data-type="all">All</button>
+    </div>
+  </div>
+  <p class="pub-filter__count" id="pub-filter-count" aria-live="polite"></p>
+</div>
+
+<style>
+  .pub-filter { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.75em 1.5em; margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #f2f3f3; font-size: 0.8em; }
+  .pub-filter__group { display: flex; flex-direction: column; gap: 0.3em; }
+  .pub-filter label, .pub-filter__label { font-weight: bold; color: #444; }
+  .pub-filter select { width: auto; min-width: 9em; margin: 0; padding: 0.3em 0.5em; }
+  .pub-filter__types { display: flex; flex-wrap: wrap; gap: 0.4em; }
+  .pub-filter__btn { padding: 0.3em 0.8em; border: 1px solid #c5c9cc; border-radius: 1em; background: #fff; color: #444; cursor: pointer; font-size: 1em; }
+  .pub-filter__btn:hover { border-color: #063c72; color: #063c72; }
+  .pub-filter__btn.is-active { background: #063c72; border-color: #063c72; color: #fff; }
+  .pub-filter__count { flex-basis: 100%; margin: 0; color: #7a8288; }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var LABELS = { journal: "Journal", conference: "Conference", workshop: "Workshop", "invited-talk": "Invited talk", preprint: "Preprint", thesis: "Thesis", defense: "Defense", tutorial: "Tutorial", other: "Other" };
+    var NOUN = {{ include.noun | default: "publications" | jsonify }};
+    var pubs = Array.prototype.slice.call(document.querySelectorAll("#main .archive [data-type][data-year]"));
+    if (!pubs.length) { document.getElementById("pub-filter").style.display = "none"; return; }
+
+    var yearSelect = document.getElementById("pub-filter-year");
+    var typeBox = document.getElementById("pub-filter-types");
+    var countEl = document.getElementById("pub-filter-count");
+    var state = { year: "all", type: "all" };
+
+    var years = [], types = [];
+    pubs.forEach(function (p) {
+      if (years.indexOf(p.dataset.year) < 0) years.push(p.dataset.year);
+      if (types.indexOf(p.dataset.type) < 0) types.push(p.dataset.type);
+    });
+    years.sort().reverse().forEach(function (y) {
+      var o = document.createElement("option");
+      o.value = o.textContent = y;
+      yearSelect.appendChild(o);
+    });
+    Object.keys(LABELS).filter(function (t) { return types.indexOf(t) >= 0; }).forEach(function (t) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "pub-filter__btn";
+      b.dataset.type = t;
+      b.textContent = LABELS[t];
+      typeBox.appendChild(b);
+    });
+
+    function apply() {
+      var shown = 0;
+      pubs.forEach(function (p) {
+        var ok = (state.year === "all" || p.dataset.year === state.year) &&
+                 (state.type === "all" || p.dataset.type === state.type);
+        var li = p.closest("li") || p;
+        li.style.display = ok ? "" : "none";
+        if (ok) shown++;
+      });
+      // Hide year headings with no visible entries.
+      var groups = [];
+      pubs.forEach(function (p) {
+        var g = (p.closest("li") || p).parentElement;
+        if (groups.indexOf(g) < 0) groups.push(g);
+      });
+      groups.forEach(function (g) {
+        var visible = Array.prototype.some.call(g.children, function (c) { return c.style.display !== "none"; });
+        g.style.display = visible ? "" : "none";
+        var h = g.previousElementSibling;
+        if (h && h.tagName === "H2") h.style.display = visible ? "" : "none";
+      });
+      countEl.textContent = "Showing " + shown + " of " + pubs.length + " " + NOUN;
+    }
+
+    yearSelect.addEventListener("change", function () { state.year = yearSelect.value; apply(); });
+    typeBox.addEventListener("click", function (e) {
+      var b = e.target.closest(".pub-filter__btn");
+      if (!b) return;
+      state.type = b.dataset.type;
+      typeBox.querySelectorAll(".pub-filter__btn").forEach(function (x) { x.classList.toggle("is-active", x === b); });
+      apply();
+    });
+    apply();
+  });
+</script>
