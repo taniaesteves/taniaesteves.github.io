@@ -1,3 +1,6 @@
 {% include base_path %}
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+{% if site.analytics.provider and site.analytics.provider != false %}
+<div class="page__footer-copyright">This website uses Google Analytics to collect statistics on how visitors use it. <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow">How Google uses this data</a>.</div>
+{% endif %}

@@ -9,17 +9,20 @@ horizontal: false
 
 {% assign talks_by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
 {% for group in talks_by_year %}
-<h2 class="talks-year">{{ group.name }}</h2>
+<h2>{{ group.name }}</h2>
 <div class="talks-group">
 {% for item in group.items %}
-<div class="talk" data-year="{{ item.year }}" data-type="{{ item.type | slugify }}">
+<div class="entry talk" data-year="{{ item.year }}" data-type="{{ item.type | slugify }}">
 <p>
-    <span class="talk__type talk__type--{{ item.type | slugify }}">{{ item.type }}</span>
-    <span style="color:#063c72"><strong>{{ item.title }}</strong><br></span>
+    <span class="type-badge type-badge--{{ item.type | slugify }}">{{ item.type }}</span>
+    <span class="entry__title">{{ item.title }}</span><br>
     {{ item.venue }}.<br>
-    {% if item.location %}{{ item.location }}.<br>{% endif %}
-    {% if item.slides %}<a href="{{ item.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
+    {% if item.location %}{{ item.location }}.{% endif %}
 </p>
+{% if item.slides or item.url %}<div class="pub__links">
+  {%- if item.slides %}<a class="pub__btn" href="{{ item.slides }}"><i class="fas fa-tv"></i> Slides</a>{% endif -%}
+  {%- if item.url %}<a class="pub__btn" href="{{ item.url }}"><i class="fas fa-calendar-alt"></i> Event</a>{% endif -%}
+</div>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -27,7 +30,6 @@ horizontal: false
 
 
 ## Posters
-<hr/>
 
 <div class="post">
     <article>

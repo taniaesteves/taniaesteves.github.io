@@ -1,9 +1,10 @@
 - title: "Ransomware in the Wild: Behavioral Insights and the Road to Resilient Defense"
   type: Invited talk
-  venue: "OWASP Porto Meet #12 -- Cerberus"
+  venue: "OWASP Porto Meet #12 – Cerberus"
   year: 2026
   location: Porto, Portugal
   slides:
+  url: https://luma.com/cvvqpw2o
 
 - title: Workshop on Docker (ENEI'26)
   type: Tutorial
@@ -11,6 +12,7 @@
   year: 2026
   location:
   slides:
+  url: https://eneiconf.pt/schedule?date=2026-04-12&view=day
 
 - title: Workshop on Kubernetes (ENEI'26)
   type: Tutorial
@@ -18,17 +20,18 @@
   year: 2026
   location:
   slides:
+  url: https://eneiconf.pt/schedule?date=2026-04-12&view=day
 
 - title: "Workshop on Docker (EPIC Júnior)"
   type: Tutorial
-  venue: Workshop on Docker for the for for members of EPIC JÚNIOR, the first junior engineering company at the University of Minho
+  venue: Workshop on Docker for members of EPIC JÚNIOR, the first junior engineering company at the University of Minho
   year: 2025
   location: Braga, Portugal
   slides:
 
 - title: "Workshop on Docker (CESIUM)"
   type: Tutorial
-  venue: Workshop on Docker for the for students at the University of Minho's Software Engineering Students' Center (CESIUM), at University of Minho
+  venue: Workshop on Docker for students at the University of Minho's Software Engineering Students' Center (CESIUM), at University of Minho
   year: 2025
   location: Braga, Portugal
   slides:
@@ -78,7 +81,7 @@
 
 - title: Diagnosing applications I/O behavior through system call observability
   type: Other
-  venue: Presentation for Cloud Computing Services and Applications, class of the first year of the MEI MSc course in Informatics Engineering, at University of Minho.
+  venue: Presentation for Cloud Computing Services and Applications, class of the first year of the MEI MSc course in Informatics Engineering, at University of Minho
   year: 2022
   location: Braga, Portugal
   slides: https://taniaesteves.github.io/assets/files/2022/ascn22_dio-presentation.pdf

@@ -16,7 +16,9 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.roles %}
+      <p class="author__bio">{% for role in author.roles %}{% assign role_parts = role | split: " · " %}<span class="author__role">{{ role_parts[0] }}{% if role_parts[1] %}<span class="author__org">{{ role_parts[1] }}</span>{% endif %}</span>{% endfor %}</p>
+    {% elsif author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -111,6 +113,9 @@
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+      {% endif %}
+      {% if author.dblp %}
+        <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw"></i> DBLP</a></li>
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>

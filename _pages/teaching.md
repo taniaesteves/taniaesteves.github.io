@@ -16,15 +16,15 @@ author_profile: true
 {% for c in t.courses %}
 {% assign y0 = c.years | first %}
 {% assign y1 = c.years | last %}
-<div class="teaching__course">
+<div class="entry">
 <p>
-    <span class="teaching__years">{{ y0 | split: "/" | first }}/{{ y0 | split: "/" | last | slice: 2, 2 }}{% if y0 != y1 %} – {{ y1 | split: "/" | first }}/{{ y1 | split: "/" | last | slice: 2, 2 }}{% endif %}</span>
+    <span class="entry__meta">{{ y0 | split: "/" | first }}/{{ y0 | split: "/" | last | slice: 2, 2 }}{% if y0 != y1 %} – {{ y1 | split: "/" | first }}/{{ y1 | split: "/" | last | slice: 2, 2 }}{% endif %}</span>
     {% assign main_title = c.title_pt | default: c.title %}
-    <span style="color:#063c72"><strong>{% if c.url %}<a href="{{ c.url }}">{{ main_title }}</a>{% else %}{{ main_title }}{% endif %}</strong>{% if c.acronym %} ({{ c.acronym }}){% endif %}</span>
+    <span class="entry__title">{% if c.url %}<a href="{{ c.url }}">{{ main_title }}</a>{% else %}{{ main_title }}{% endif %}{% if c.acronym %} ({{ c.acronym }}){% endif %}</span>
     {% if c.title_pt %}<span class="teaching__alt">· {{ c.title }}</span>{% endif %}<br>
     {{ c.class }}<br>
     {{ c.type | default: "Practical classes" }}<br>
-    {% if c.note %}<span class="teaching__note">{{ c.note }}</span>{% endif %}
+    {% if c.note %}<span class="entry__detail">{{ c.note }}</span>{% endif %}
 </p>
 </div>
 {% endfor %}

@@ -5,11 +5,20 @@ permalink: /service/
 author_profile: true
 ---
 
-{% assign service_list = site.data.service | group_by: "type" %}
-{% for type_list in service_list %}
-<h2><span style="color:#063c72">{{ type_list.name }}</span></h2>
-<hr>
-{% for service in type_list.items %}
-**{{ service.year }}** - {{ service.venue }} ([{{ service.acronym }}]({{ service.website }})) {% if service.additional_info %}{{ service.additional_info }}{% endif %}<br>
+{% assign categories = "Organization & Chairing|Program Committees|Artifact Evaluation Committees|Journal Reviewing" | split: "|" %}
+{% for category in categories %}
+{% assign items = site.data.service | where: "type", category %}
+{% if items.size > 0 %}
+## {{ category }}
+
+{% for service in items %}
+{% assign label = service.acronym | default: service.venue %}
+<div class="entry entry--compact">
+<p>
+    <span class="entry__meta">{{ service.years | join: ", " }}</span>
+    <span class="entry__title">{% if service.website %}<a href="{{ service.website }}">{{ label }}</a>{% else %}{{ label }}{% endif %}</span>{% if service.acronym %} — {{ service.venue }}{% endif %}{% if service.note %} <span class="entry__detail">{{ service.note }}</span>{% endif %}
+</p>
+</div>
 {% endfor %}
+{% endif %}
 {% endfor %}

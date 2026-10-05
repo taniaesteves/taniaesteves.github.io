@@ -1,0 +1,26 @@
+# Newest first. The home page shows the 5 most recent (see _pages/about.md); /news/ shows all.
+# `text` accepts Markdown (links, *italics*, **bold**).
+
+- date: Sep 2026
+  text: "My PhD student Carlos Machado presented our poster [*Context Matters: Expanding the Potential of eBPF*](https://doi.org/10.1145/3837779.3838163) at the eBPF'26 workshop, co-located with SOSP'26."
+
+- date: Jul 2026
+  text: "Gave an invited talk at OWASP Porto Meet #12 – Cerberus, sharing what we have learned about ransomware behavior and how to build more resilient defenses."
+
+- date: Jul 2026
+  text: "🏆 Very proud of my PhD student Bruno Pereira, who won the **Best Presentation Award** at WORMA'26 (co-located with EuroS&P) for our work [*It Works on My Machine*](/assets/files/2026/itworksonmymachine-worma26-brunopereira.pdf)."
+
+- date: May 2026
+  text: "Started working on [INOCULUM](https://inoculum-project.github.io), a new project on storage systems designed so that ransomware cannot destroy critical data."
+
+- date: Apr 2026
+  text: "Gave hands-on Docker and Kubernetes workshops to students at ENEI'26 (National Meeting of Informatics Students), together with João Paulo."
+
+- date: Jan 2026
+  text: "Started working on [Rescueware](https://rescueware.invisiblelab.dev), a new project where we are building ransomware protection and recovery solutions for healthcare infrastructures."
+
+- date: Sep 2025
+  text: "Our work revisiting data deduplication for modern storage devices, [*Speed Kills*](https://rldm.invisiblelab.dev/papers/speed-kills-revisiting-data-deduplication-for-modern-storage-devices.pdf), was published at RLDM'25 (co-located with SRDS)."
+
+- date: Sep 2025
+  text: "Our study comparing the performance, fidelity and resource usage of eBPF libraries, [*No Two Snowflakes Are Alike*](https://doi.org/10.1145/3748355.3748364), was published at the eBPF'25 workshop (co-located with SIGCOMM)."

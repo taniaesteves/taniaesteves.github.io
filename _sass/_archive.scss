@@ -40,7 +40,7 @@
   }
 
   span b {
-      color: #063c72;
+      color: $title-color;
       display: block;
   }
 
@@ -54,14 +54,11 @@ ol.bibliography {
   padding-left: 0px;
 }
 
-h2.bibliography::after,
-h2.talks-year::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: rgb(241.7,242.5,243.1);
-  margin: 1em 0;
+/* Section headings (one style for every page) */
+.archive h2 {
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid rgb(241.7,242.5,243.1);
+  margin-bottom: 1em;
 }
 
 .talk {
@@ -147,9 +144,50 @@ h2.talks-year::after {
     margin: 0 0 4px;
   }
 }
+/* Publication entries: text + link buttons */
+.pub {
+  margin-bottom: 1.6em;
+
+  p {
+    margin: 0;
+  }
+}
+
+
+.pub .type-badge {
+  float: right;
+  margin: 0.2em 0 0.3em 0.8em;
+}
+
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.5em;
+}
+
+.archive a.pub__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.15em 0.65em;
+  border: 1px solid #d5dade;
+  border-radius: 1em;
+  color: #555;
+  font-size: 0.75em;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    border-color: $accent-color;
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+
 .pub--award {
-  border-left: 3px solid #d4a017;
   padding-left: 0.8em;
+  border-left: 3px solid #d4a017;
 }
 
 .bibliography span.pub__award {
@@ -163,7 +201,7 @@ h2.talks-year::after {
   font-weight: bold;
 }
 
-.talk__type {
+.type-badge {
   display: inline-block;
   padding: 0.05em 0.6em;
   border-radius: 1em;
@@ -177,10 +215,17 @@ h2.talks-year::after {
   margin: 0.2em 0 0.3em 0.8em;
 }
 
-.talk__type--conference { background: #e3edf7; color: #063c72; }
-.talk__type--workshop   { background: #e6f2ec; color: #1f6b45; }
-.talk__type--invited-talk { background: #fdf3d7; color: #8a6400; }
-.talk__type--tutorial   { background: #f1e9f7; color: #5b3a7a; }
+.type-badge--conference   { background: #e3edf7; color: #2f5d8a; }
+.type-badge--journal      { background: #e0f0f4; color: #0b5a6b; }
+.type-badge--workshop     { background: #e6f2ec; color: #1f6b45; }
+.type-badge--invited-talk { background: #fdf3d7; color: #8a6400; }
+.type-badge--tutorial     { background: #f1e9f7; color: #5b3a7a; }
+.type-badge--preprint     { background: #fbe9e4; color: #8a3b22; }
+
+.entry .type-badge {
+  float: right;
+  margin: 0.2em 0 0.3em 0.8em;
+}
 
 .teaching__role {
   margin-bottom: 1.5em;
@@ -189,25 +234,110 @@ h2.talks-year::after {
   color: #444;
 }
 
-.teaching__course {
-  margin-bottom: 18px;
-}
-
-.teaching__years {
-  float: right;
-  margin-left: 0.8em;
-  color: #7a8288;
-  font-size: 0.85em;
-}
-
 .teaching__alt {
   color: #7a8288;
   font-size: 0.85em;
   font-style: italic;
 }
 
-.teaching__note,
 .teaching__see-also {
   color: #7a8288;
   font-size: 0.85em;
+}
+
+.news {
+  margin-bottom: 1em;
+}
+
+.news__item {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.6em;
+}
+
+.news__date {
+  flex: 0 0 5.5em;
+  color: #7a8288;
+  font-size: 0.85em;
+  padding-top: 0.15em;
+}
+
+.news__text {
+  flex: 1;
+}
+
+/* Shared list entry: title in accent colour, grey details, meta (dates, links) on the right */
+.entry {
+  margin-bottom: 1.2em;
+
+  p {
+    margin: 0;
+  }
+}
+
+.entry--compact {
+  margin-bottom: 0.4em;
+}
+
+.entry__title {
+  color: $title-color;
+  font-weight: bold;
+}
+
+.entry__meta {
+  float: right;
+  margin: 0.15em 0 0.3em 0.8em;
+  color: #7a8288;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.entry__detail {
+  color: #7a8288;
+  font-size: 0.85em;
+}
+
+/* Year/type filter (publications) */
+.pub-filter { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.75em 1.5em; margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #f2f3f3; font-size: 0.8em; }
+.pub-filter__group { display: flex; flex-direction: column; gap: 0.3em; }
+.pub-filter label, .pub-filter__label { font-weight: bold; color: #444; }
+.pub-filter select { width: auto; min-width: 9em; margin: 0; padding: 0.3em 0.5em; }
+.pub-filter__types { display: flex; flex-wrap: wrap; gap: 0.4em; }
+.pub-filter__btn { padding: 0.3em 0.8em; border: 1px solid #c5c9cc; border-radius: 1em; background: #fff; color: #444; cursor: pointer; font-size: 1em; }
+.pub-filter__btn:hover { border-color: $accent-color; color: $accent-color; }
+.pub-filter__btn.is-active { background: $title-color; border-color: $title-color; color: #fff; }
+.pub-filter__count { flex-basis: 100%; margin: 0; color: #7a8288; }
+
+/* Projects: role line under the title */
+.project__role {
+  display: inline-block;
+  margin: 0.15em 0 0.25em;
+  color: #6b6b6b;
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+
+  i {
+    margin-right: 0.3em;
+    font-size: 0.85em;
+    opacity: 0.7;
+  }
+}
+
+.project__role--coordinator {
+  padding: 0.1em 0.7em;
+  border-radius: 1em;
+  background: #fdf0e9;
+  color: $accent-color;
+  font-weight: 600;
+
+  i {
+    opacity: 1;
+  }
+}
+
+.news__more {
+  margin-top: 0.4em;
+  font-size: 0.9em;
+  font-weight: 600;
 }

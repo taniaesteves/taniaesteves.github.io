@@ -1,0 +1,21 @@
+{%- comment -%}
+  Formats a date range the same way on every page.
+  Usage: {% include date-range.html start=item.start_date end=item.end_date %}
+  Dates can be "2025" or "2025/09" (shown as "Sep 2025"). An empty end shows "present".
+{%- endcomment -%}
+{%- assign dr_months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+{%- assign dr_parts = "" | split: "" -%}
+{%- for dr_i in (1..2) -%}
+  {%- if forloop.first -%}{%- assign dr_raw = include.start | append: "" -%}{%- else -%}{%- assign dr_raw = include.end | append: "" -%}{%- endif -%}
+  {%- if dr_raw == "" -%}
+    {%- assign dr_fmt = "present" -%}
+  {%- elsif dr_raw contains "/" -%}
+    {%- assign dr_bits = dr_raw | split: "/" -%}
+    {%- assign dr_m = dr_bits[1] | plus: 0 | minus: 1 -%}
+    {%- assign dr_fmt = dr_months[dr_m] | append: " " | append: dr_bits[0] -%}
+  {%- else -%}
+    {%- assign dr_fmt = dr_raw -%}
+  {%- endif -%}
+  {%- assign dr_parts = dr_parts | push: dr_fmt -%}
+{%- endfor -%}
+{%- if dr_parts[0] == dr_parts[1] -%}{{ dr_parts[0] }}{%- else -%}{{ dr_parts[0] }} – {{ dr_parts[1] }}{%- endif -%}

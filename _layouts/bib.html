@@ -24,11 +24,14 @@
 
 <div class="pub{% if entry.award %} pub--award{% endif %}" data-year="{{ entry.year }}" data-type="{{ pubtype }}">
     <p>
+    <span class="type-badge type-badge--{{ pubtype }}">{{ pubtype }}</span>
     {% if entry.award %}<span class="pub__award"><i class="fas fa-fw fa-trophy"></i> {{ entry.award }}</span>{% endif %}
     {{ reference }}
-    {% if entry.url %}<a href="{{ entry.url }}"><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
-    {% if entry.pdf %}<a href="{{ entry.pdf }}"><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
-    {% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
-    {% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
-</p>
+    </p>
+    <div class="pub__links">
+      {% if entry.pdf %}<a class="pub__btn" href="{{ entry.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+      {% if entry.slides %}<a class="pub__btn" href="{{ entry.slides }}"><i class="fas fa-tv"></i> Slides</a>{% endif %}
+      {% if entry.git %}<a class="pub__btn" href="{{ entry.git }}"><i class="fas fa-code"></i> Code</a>{% endif %}
+      {% if entry.url %}<a class="pub__btn" href="{{ entry.url }}"><i class="fas fa-link"></i> {% if entry.url contains "doi.org" %}DOI{% else %}Link{% endif %}</a>{% endif %}
+    </div>
 </div>

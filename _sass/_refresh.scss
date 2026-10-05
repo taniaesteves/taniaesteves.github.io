@@ -1,0 +1,191 @@
+/* ==========================================================================
+   VISUAL STYLE ("minimal elegant")
+   White background, generous spacing, terracotta accent ($accent-color),
+   small uppercase section headings. Loaded last so it overrides the theme
+   and the MDB stylesheet.
+   ========================================================================== */
+
+body {
+  font-weight: 400;
+  color: #2b2b2b;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+.archive {
+  p {
+    color: #3a3a3a;
+    line-height: 1.6;
+  }
+
+  a {
+    color: $accent-color;
+  }
+}
+
+/* Page title: large and light */
+.page__title {
+  font-size: 2.3em;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  color: $title-color;
+}
+
+/* Section headings: small, uppercase, accent colour */
+.archive h2 {
+  margin-top: 2.6em;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: $accent-color;
+  border-bottom-color: #f0e6e0;
+}
+
+.archive h3 {
+  font-weight: 600;
+  color: $title-color;
+}
+
+/* Entry titles: dark, linked ones get a soft underline */
+.entry__title {
+  font-weight: 600;
+
+  a {
+    color: $title-color;
+    text-decoration: underline;
+    text-decoration-color: #f3c9b5;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: $accent-color;
+      text-decoration-color: $accent-color;
+    }
+  }
+}
+
+/* Type labels: outlined instead of filled */
+.type-badge {
+  background: transparent !important;
+  border: 1px solid currentColor;
+}
+
+/* Link buttons (PDF, Slides, ...) */
+.archive a.pub__btn {
+  border-color: #ead9cf;
+  color: #7a4a32;
+
+  &:hover {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}
+
+.news__date {
+  color: $accent-color;
+}
+
+/* Top bar */
+.masthead {
+  border-bottom: none;
+}
+
+.greedy-nav {
+  a {
+    color: #6b6b6b;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  .visible-links li:first-child a {
+    color: $title-color;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .masthead__menu-item--active a {
+    color: $title-color;
+    border-bottom-color: $accent-color;
+  }
+}
+
+/* Sidebar */
+.author__name {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.author__bio {
+  color: #5a5a5a;
+}
+
+/* Sidebar: larger photo with accent ring, muted links, stays in view */
+.author__avatar img {
+  max-width: 170px;
+  padding: 4px;
+  border: 2px solid #f3c9b5;
+  box-shadow: none;
+}
+
+.author__bio {
+  line-height: 1.4;
+}
+
+.author__role {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+
+.author__org {
+  display: block;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+.author__urls {
+  li {
+    color: #6b6b6b;
+  }
+
+  a {
+    color: #4a4a4a;
+    transition: color 0.2s ease;
+
+    i,
+    i[class*="fa-"],
+    i.ai {
+      color: #9a9a9a !important;
+      transition: color 0.2s ease;
+    }
+
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+
+      i,
+      i[class*="fa-"],
+      i.ai {
+        color: $accent-color !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 925px) {
+  .sidebar {
+    position: sticky;
+    top: 2em;
+    align-self: flex-start;
+  }
+}

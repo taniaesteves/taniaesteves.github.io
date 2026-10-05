@@ -1,11 +1,15 @@
 - acronym: INOCULUM
   title: Boosting the Immunity of Storage Systems Against Ransomware
   role: Researcher
-  description:
+  description: Research on storage systems designed so that ransomware cannot destroy critical data.
   date_start: 2026
   date_end:
   reference: 15032 (NORTE2030-FEDER-00868400)
-  website:
+  typology: Portugal 2030, co-funded by ERDF and FCT
+  partners:
+    - name: INESC TEC
+      url: https://www.inesctec.pt
+  website: https://inoculum-project.github.io
 
 - acronym: Rescueware
   title: Intelligent and Self-configurable Cybersecurity and Data Recovery for Ransomware Resilience
@@ -14,7 +18,7 @@
   date_start: 2026
   date_end:
   reference: 21746 (NORTE2030-FEDER-02306900)
-  typology: P2030 I&D Enterprise (co-promotion).
+  typology: P2030 I&D Enterprise (co-promotion)
   partners:
   - name: Invisible Lab
     url: https://invisiblelab.dev
@@ -41,7 +45,7 @@
 
 - acronym: BringTrust
   title: Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property
-  role: Local co-coordinator (INESC TEC team) & Researcher
+  role: Local co-coordinator (INESC TEC)
   description: Research and development of secure CI/CD environments for protecting data and intellectual property throughout workflows.
   date_start: 2025
   date_end:
@@ -72,9 +76,10 @@
 - acronym: ATE
   title: Alliance for Energy Transition
   role: Researcher
-  description:
+  description: Integration of renewable energy sources and development of technological solutions across the energy system value chain to support the decarbonization of society.
   date_start: 2023
-  date_end:
+  date_end: 2026
+  typology: Recovery and Resilience Plan (PRR)
   reference:
   partners:
   website: https://www.inesctec.pt/pt/projetos/ate
@@ -85,7 +90,7 @@
   description: Research and development of I/O diagnosis tools for HPC applications and infrastructures.
   date_start: 2020
   date_end: 2023
-  reference: POCI--01--0247--FEDER--045924
+  reference: POCI-01-0247-FEDER-045924
   partners:
     - name: Wavecom
     - name: INESC TEC
@@ -112,7 +117,7 @@
     - name: KISTI
   website: http://www.globalcentra.org/projects/#prv
 
-- title: IBM Research Haifa --- Joint Study Agreement
+- title: IBM Research Haifa — Joint Study Agreement
   role: Researcher
   description: |
     Research and development of a secure and stackable file system solution with deduplication and compression features.

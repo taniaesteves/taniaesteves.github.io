@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "taniaesteves"
+title                    : "Tânia Esteves"
 title_separator          : "-"
-name                     : &name "Tania Esteves"
+name                     : &name "Tânia Esteves"
 description              : &description "Researcher at HASLab - INESC TEC. Invited assistant professor at University of Minho."
 url                      : https://taniaesteves.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,8 +82,11 @@ analytics:
 author:
   name             : "Tânia Esteves"
   avatar           : "profile.png"
-  bio              : "Researcher at HASLab - INESC TEC. Invited assistant professor at University of Minho."
-  location         : "U. Minho, Portugal"
+  bio              : "Assistant Researcher at INESC TEC. Invited Assistant Professor at University of Minho."
+  roles            : # shown one per line under the name (falls back to bio)
+    - "Assistant Researcher · INESC TEC"
+    - "Invited Assistant Professor · U. Minho"
+  location         : "Braga, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=psaIFX0AAAAJ&hl=en"
@@ -102,8 +105,9 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "tania-esteves"
   orcid            : "https://orcid.org/0000-0001-9358-1008"
+  dblp             : # full profile URL, e.g. "https://dblp.org/pid/xxx/yyyy.html"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
