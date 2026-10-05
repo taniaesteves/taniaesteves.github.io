@@ -1,73 +1,31 @@
-# 2025/2026
+# One entry per course (UC). Add the new academic year to `years` each year.
+# `title_pt` is the official Portuguese name.
+# `type` defaults to practical classes. `url` is optional and links the course title to its webpage.
 
-- title: Operating Systems
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-  year: 2025/2026
+position: Invited Assistant Professor (25%)
+institution: University of Minho
 
-- title: Operating System Technologies
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 3rd year of the Informatics Engineering (LEI) BSc course, U. Minho
-  year: 2025/2026
+courses:
+  - title: Cloud Computing Services and Applications
+    title_pt: Aplicações e Serviços de Computação em Nuvem
+    acronym: ASCN
+    url: https://distributedum.github.io/ascn/
+    class: 1st year of the MSc in Informatics Engineering (MEI) and the MSc in Cybersecurity (MC)
+    note: MEI only until 2025/2026.
+    years: [2021/2022, 2022/2023, 2023/2024, 2024/2025, 2025/2026, 2026/2027]
 
-- title: Cloud Computing Services and Applications
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 1st year of the Informatics Engineering MSc course (MEI), U. Minho
-  year: 2025/2026
+  - title: Operating Systems
+    title_pt: Sistemas Operativos
+    acronym: SO
+    url:
+    class: BSc in Informatics Engineering (LEI, 2nd year)
+    note: Also for the BSc in Computer Science (LCC) from 2022/2023 to 2025/2026.
+    years: [2021/2022, 2022/2023, 2023/2024, 2024/2025, 2025/2026, 2026/2027]
 
-# 2024/2025
-
-- title: Operating Systems
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-  year: 2024/2025
-
-- title: Cloud Computing Services and Applications
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 1st year of the Informatics Engineering MSc course (MEI), U. Minho
-  year: 2024/2025
-
-# 2023/2024
-
-- title: Operating Systems
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-  year: 2023/2024
-- title: Cloud Computing Services and Applications
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 1st year of the Informatics Engineering MSc course (MEI), U. Minho
-  year: 2023/2024
-
-# 2022/2023
-
-- title: Operating Systems
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 2nd year of the Informatics Engineering (LEI) and Computer Science (LCC) BSc courses, U. Minho
-  year: 2022/2023
-- title: Cloud Computing Services and Applications
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 1st year of the Informatics Engineering MSc course (MEI), U. Minho
-  year: 2022/2023
-
-# 2021/2022
-
-- title: Operating Systems
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 2nd year of the Informatics Engineering BSc course (LEI), U. Minho
-  year: 2021/2022
-
-- title: Cloud Computing Services and Applications
-  position: Invited Assistant Professor (25%)
-  type: Practical classes
-  class: 1st year of the Informatics Engineering MSc course (MEI), U. Minho
-  year: 2021/2022
+  - title: Operating System Technologies
+    title_pt: Tecnologias de Sistemas Operativos
+    acronym: TSO
+    url:
+    class: BSc in Informatics Engineering (LEI, 3rd year)
+    type: Practical classes; theoretical classes shared with Prof. João Paulo
+    years: [2025/2026, 2026/2027]

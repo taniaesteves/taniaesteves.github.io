@@ -181,3 +181,33 @@ h2.talks-year::after {
 .talk__type--workshop   { background: #e6f2ec; color: #1f6b45; }
 .talk__type--invited-talk { background: #fdf3d7; color: #8a6400; }
 .talk__type--tutorial   { background: #f1e9f7; color: #5b3a7a; }
+
+.teaching__role {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(241.7,242.5,243.1);
+  color: #444;
+}
+
+.teaching__course {
+  margin-bottom: 18px;
+}
+
+.teaching__years {
+  float: right;
+  margin-left: 0.8em;
+  color: #7a8288;
+  font-size: 0.85em;
+}
+
+.teaching__alt {
+  color: #7a8288;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.teaching__note,
+.teaching__see-also {
+  color: #7a8288;
+  font-size: 0.85em;
+}
