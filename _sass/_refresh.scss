@@ -75,17 +75,6 @@ b, strong {
   border: 1px solid currentColor;
 }
 
-/* Link buttons (PDF, Slides, ...) */
-.archive a.pub__btn {
-  border-color: #ead9cf;
-  color: #7a4a32;
-
-  &:hover {
-    border-color: $accent-color;
-    color: $accent-color;
-  }
-}
-
 .news__date {
   color: $accent-color;
 }

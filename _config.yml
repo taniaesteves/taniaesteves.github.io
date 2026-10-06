@@ -107,7 +107,7 @@ author:
   lastfm           :
   linkedin         : "tania-esteves"
   orcid            : "https://orcid.org/0000-0001-9358-1008"
-  dblp             : # full profile URL, e.g. "https://dblp.org/pid/xxx/yyyy.html"
+  dblp             : "https://dblp.org/pid/257/9777.html"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -271,6 +271,9 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # Deprecations come from the vendored theme/Font Awesome sources; silence them to keep the build log readable.
+  quiet_deps: true
+  silence_deprecations: [import, global-builtin, slash-div, color-functions, mixed-decls]
 
 
 # Outputting
@@ -409,3 +412,4 @@ scholar:
   # style: current-opinion
   style: assets/csl/myrefstyle.csl
   bibliography_template: bib
+  bibtex_skip_fields: [abstract, month_numeric, pdf, slides, poster, git, preview, award, selected, pubtype, keywords]

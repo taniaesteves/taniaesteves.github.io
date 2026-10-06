@@ -26,12 +26,15 @@
     <p>
     <span class="type-badge type-badge--{{ pubtype }}">{{ pubtype }}</span>
     {% if entry.award %}<span class="pub__award"><i class="fas fa-fw fa-trophy"></i> {{ entry.award }}</span>{% endif %}
-    {{ reference }}
+    {{ reference | replace: "Esteves, T.", '<strong>Esteves, T.</strong>' }}
     </p>
     <div class="pub__links">
+      {% if entry.url %}<a class="pub__btn" href="{{ entry.url }}"><i class="fas fa-link"></i> {% if entry.url contains "doi.org" %}DOI{% else %}Link{% endif %}</a>{% endif %}
       {% if entry.pdf %}<a class="pub__btn" href="{{ entry.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
       {% if entry.slides %}<a class="pub__btn" href="{{ entry.slides }}"><i class="fas fa-tv"></i> Slides</a>{% endif %}
+      {% if entry.poster %}<a class="pub__btn" href="{{ entry.poster }}"><i class="fas fa-image"></i> Poster</a>{% endif %}
       {% if entry.git %}<a class="pub__btn" href="{{ entry.git }}"><i class="fas fa-code"></i> Code</a>{% endif %}
-      {% if entry.url %}<a class="pub__btn" href="{{ entry.url }}"><i class="fas fa-link"></i> {% if entry.url contains "doi.org" %}DOI{% else %}Link{% endif %}</a>{% endif %}
+      <button type="button" class="pub__btn" onclick="var b = this.parentNode.nextElementSibling; b.hidden = !b.hidden;"><i class="fas fa-quote-right"></i> BibTeX</button>
     </div>
+    <pre class="pub__bibtex" hidden>{{ entry.bibtex | escape }}</pre>
 </div>

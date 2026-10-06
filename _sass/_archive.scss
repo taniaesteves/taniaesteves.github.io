@@ -44,6 +44,16 @@
       display: block;
   }
 
+  /* Authors and venue: smaller and grey; the title keeps its size. */
+  .pub p > span[id] {
+      font-size: 0.9em;
+      color: #6f777d;
+  }
+
+  .pub p > span[id] > b {
+      font-size: calc(1em / 0.9);
+  }
+
   span span {
       display: block;
   }
@@ -166,8 +176,12 @@ ol.bibliography {
   margin-top: 0.5em;
 }
 
-.archive a.pub__btn {
+.archive a.pub__btn,
+.archive button.pub__btn {
   display: inline-flex;
+  background: none;
+  cursor: pointer;
+  line-height: inherit;
   align-items: center;
   gap: 0.35em;
   padding: 0.15em 0.65em;
@@ -183,6 +197,14 @@ ol.bibliography {
     color: $accent-color;
     text-decoration: none;
   }
+}
+
+.pub__bibtex {
+  margin: 0.6em 0 0;
+  padding: 0.7em 0.9em;
+  font-size: 0.7em;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .pub--award {

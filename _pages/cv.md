@@ -3,7 +3,10 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+cv_pdf: # e.g. /assets/files/cv-tania-esteves.pdf
 ---
+
+{% if page.cv_pdf %}<p><a class="pub__btn" href="{{ page.cv_pdf | relative_url }}"><i class="fas fa-file-pdf"></i> Download CV (PDF)</a></p>{% endif %}
 
 ## Education
 
