@@ -16,7 +16,7 @@ author_profile: true
 <div class="entry entry--compact">
 <p>
     <span class="entry__meta">{{ service.years | join: ", " }}</span>
-    <span class="entry__title">{% if service.website %}<a href="{{ service.website }}">{{ label }}</a>{% else %}{{ label }}{% endif %}</span>{% if service.acronym %} — {{ service.venue }}{% endif %}{% if service.note %} <span class="entry__detail">{{ service.note }}</span>{% endif %}
+    <span class="entry__title">{% if service.website %}<a href="{{ service.website }}">{{ label }}</a>{% else %}{{ label }}{% endif %}</span>{% if service.track %} [{{ service.track }}]{% endif %}{% if service.acronym %} — {{ service.venue }}{% endif %}{% if service.note %} <span class="entry__detail">{{ service.note }}</span>{% endif %}
 </p>
 </div>
 {% endfor %}

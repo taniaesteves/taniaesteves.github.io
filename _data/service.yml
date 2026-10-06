@@ -28,14 +28,14 @@
   acronym: Euro-Par'26
   venue: 32nd International European Conference on Parallel and Distributed Computing
   website: https://2026.euro-par.org
-  note: Poster track.
+  track: Poster Track
   years: [2026]
 
 - type: Program Committees
   acronym: EuroSys'25
   venue: 20th ACM European Conference on Computer Systems
   website: https://2025.eurosys.org
-  note: Shadow PC.
+  track: Shadow PC
   years: [2025]
 
 ##################################
@@ -58,7 +58,6 @@
   acronym: EuroSys'25, '26
   venue: European Conference on Computer Systems
   website: https://2026.eurosys.org
-  note: Spring and Fall cycles in 2026; Spring cycle in 2025.
   years: [2025, 2026]
 
 - type: Artifact Evaluation Committees
