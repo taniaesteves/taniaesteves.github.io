@@ -1,4 +1,5 @@
 - acronym: INOCULUM
+  selected: true
   title: Boosting the Immunity of Storage Systems Against Ransomware
   role: Researcher
   description: Research on storage systems designed so that ransomware cannot destroy critical data.
@@ -12,6 +13,7 @@
   website: https://inoculum-project.github.io
 
 - acronym: Rescueware
+  selected: true
   title: Intelligent and Self-configurable Cybersecurity and Data Recovery for Ransomware Resilience
   role: Researcher
   description: Research and development of ransomware detection and recovery solutions for healthcare infrastructures.
@@ -44,6 +46,7 @@
   website:
 
 - acronym: BringTrust
+  selected: true
   title: Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property
   role: Local co-coordinator (INESC TEC)
   description: Research and development of secure CI/CD environments for protecting data and intellectual property throughout workflows.
